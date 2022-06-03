@@ -16,3 +16,6 @@ Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Hackademic-
 ```
 netdiscover --interface wlan0 --range 192.168.1.0/24
 ```
+![1](https://user-images.githubusercontent.com/75953873/171916293-58226ff2-39aa-4d40-b2b2-df538a7784d1.png)
+
+Objetivo: 192.168.1.5
