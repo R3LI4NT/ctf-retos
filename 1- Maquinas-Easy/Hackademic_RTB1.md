@@ -75,3 +75,9 @@ http://192.168.1.5/Hackademic_RTB1/wp-login.php
 
 -> Manage -> Files
 ![8](https://user-images.githubusercontent.com/75953873/171925393-d911ddcf-cf5a-4670-8143-4026d0c70424.png)
+
+Copiar código PHP de la siguiente ruta:
+```
+cat /usr/share/webshells/php/php-reverse-shell.php
+```
+![9](https://user-images.githubusercontent.com/75953873/171925910-7d2cc0de-93a1-4bc8-aeaf-dad026c76a9c.png)
