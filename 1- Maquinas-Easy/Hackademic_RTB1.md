@@ -86,3 +86,11 @@ cat /usr/share/webshells/php/php-reverse-shell.php
 Pegan el código en hello.php y cambian la línea de `$ip` por su IP local, luego guardan los cambios "Update File":
 
 ![10](https://user-images.githubusercontent.com/75953873/171926310-94b22d02-b809-4029-a72f-d90b1634fe8d.png)
+
+Abren una nueva terminal y ejecutan Netcat para que escuche las conexiones por el puerto 1234. Posteriormente recargan la siguiente URL:
+
+```
+http://192.168.1.5/Hackademic_RTB1/wp-content/plugins/hello.php
+```
+![11](https://user-images.githubusercontent.com/75953873/171927713-64734806-0fc2-41d6-8b17-aff9e45f4b35.png)
+
