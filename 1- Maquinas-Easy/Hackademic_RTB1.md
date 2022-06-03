@@ -108,3 +108,8 @@ searchsploit Linux Kernel 2.6.3 RDS Local Privilege Escalation
 ```
 ![13](https://user-images.githubusercontent.com/75953873/171930886-0c5950e1-7c71-4a88-9aec-0b2fd90a1fa4.png)
 
+Descargar el exploit:
+```
+searchsploit -m 15285
+```
+![14](https://user-images.githubusercontent.com/75953873/171931554-8fde81f6-88fd-4281-8597-ebeb5fd57124.png)
