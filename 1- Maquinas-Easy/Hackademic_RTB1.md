@@ -133,3 +133,11 @@ gcc 15285.c -o kernel
 chmod 777 kernel
 ```
 ![17](https://user-images.githubusercontent.com/75953873/171933850-a08f1cb8-f9fa-4762-96f9-cc2af26619a2.png)
+
+Por último, ejecutan el comando de `./kernel` y comenzará a explotar la vulnerabilidad:
+
+![18](https://user-images.githubusercontent.com/75953873/171934716-5bbc8019-cb0f-4e4c-8307-07a5ab76f146.png)
+
+Y es así como finalmente obtendremos permisos de administrador (root) en la máquina víctima:
+
+![19](https://user-images.githubusercontent.com/75953873/171935035-085279d1-fca1-47ab-9f2d-3e60e2830b04.png)
