@@ -12,4 +12,4 @@ Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Hackademic-
 
 </br>
 
-- *Paso 1:* Example.txt 
+- *Paso 1:* Identificación de la máquina en la red. 
