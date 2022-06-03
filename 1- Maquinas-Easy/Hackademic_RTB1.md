@@ -40,7 +40,8 @@ Servidor web corriendo: HTTP Apache
 - *Paso 3:* Búsqueda de vectores vulnerables a SQL. 
 
 ```
-http://192.168.1.5/Hackademic_RTB1/
+http://192.168.1.5/Hackademic_RTB1/?cat=1
 ```
-![4](https://user-images.githubusercontent.com/75953873/171918736-ea516fbd-e7d7-42a8-87cd-d5f27f384dd2.png)
+![4](https://user-images.githubusercontent.com/75953873/171920301-015e4c06-3a1f-4535-9790-f4f450563eb9.png)
+
 
