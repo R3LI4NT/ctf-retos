@@ -43,4 +43,4 @@ Servidor web corriendo: HTTP Apache
 http://192.168.1.5/Hackademic_RTB1/
 ```
 ![4](https://user-images.githubusercontent.com/75953873/171918736-ea516fbd-e7d7-42a8-87cd-d5f27f384dd2.png)
-githubusercontent.com/75953873/171918605-9a470fc4-80d1-4742-a3db-47d40198b968.png)
+
