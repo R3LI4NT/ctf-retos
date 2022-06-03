@@ -19,3 +19,16 @@ netdiscover --interface wlan0 --range 192.168.1.0/24
 ![1](https://user-images.githubusercontent.com/75953873/171916293-58226ff2-39aa-4d40-b2b2-df538a7784d1.png)
 
 Objetivo: 192.168.1.5
+
+
+- *Paso 2:* Escaneo de puertos abiertos con Nmap. 
+```
+nmap -p- --open -sC -n -vvv 192.168.1.5
+```
+![2](https://user-images.githubusercontent.com/75953873/171916862-e15a1cc6-e25a-4613-a54c-3d8b3f135135.png)
+
+Detección de sistema operativo y versión: 
+```
+nmap -p 80 -A 192.168.1.5
+```
+![3](https://user-images.githubusercontent.com/75953873/171917441-d5f58873-8274-4611-90f6-db7bb9902c1a.png)
