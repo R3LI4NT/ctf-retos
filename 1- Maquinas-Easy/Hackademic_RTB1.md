@@ -81,3 +81,6 @@ Copiar código PHP de la siguiente ruta:
 cat /usr/share/webshells/php/php-reverse-shell.php
 ```
 ![9](https://user-images.githubusercontent.com/75953873/171925910-7d2cc0de-93a1-4bc8-aeaf-dad026c76a9c.png)
+
+Pegan el código en hello.php y cambian la línea de `$ip` por su IP local, luego guardan los cambios "Update File":
+![10](https://user-images.githubusercontent.com/75953873/171926310-94b22d02-b809-4029-a72f-d90b1634fe8d.png)
