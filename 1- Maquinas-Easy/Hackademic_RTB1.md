@@ -74,6 +74,7 @@ http://192.168.1.5/Hackademic_RTB1/wp-login.php
 - *Paso 4:* Subir código PHP y obtener una reverse shell. 
 
 -> Manage -> Files
+
 ![8](https://user-images.githubusercontent.com/75953873/171925393-d911ddcf-cf5a-4670-8143-4026d0c70424.png)
 
 Copiar código PHP de la siguiente ruta:
@@ -83,4 +84,5 @@ cat /usr/share/webshells/php/php-reverse-shell.php
 ![9](https://user-images.githubusercontent.com/75953873/171925910-7d2cc0de-93a1-4bc8-aeaf-dad026c76a9c.png)
 
 Pegan el código en hello.php y cambian la línea de `$ip` por su IP local, luego guardan los cambios "Update File":
+
 ![10](https://user-images.githubusercontent.com/75953873/171926310-94b22d02-b809-4029-a72f-d90b1634fe8d.png)
