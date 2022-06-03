@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=xd&size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1"></a>
+  <a href="https://readme-typing-svg.herokuapp.com?font=xd&size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC_RTB1"></a>
 </p>
 
 
