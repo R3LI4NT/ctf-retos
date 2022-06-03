@@ -1,4 +1,7 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=xd&size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1"></a>
+</p>
+
 
 <h1 align="center"></h1>
 
