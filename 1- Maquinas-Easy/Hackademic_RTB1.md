@@ -37,7 +37,7 @@ Puerto abierto: 80
 
 Servidor web corriendo: HTTP Apache
 
-- *Paso 3:* Búsqueda de vectores vulnerables con WPScan. 
+- *Paso 3:* Búsqueda de vectores vulnerables a SQL. 
 
 ```
 http://192.168.1.5/Hackademic_RTB1/
