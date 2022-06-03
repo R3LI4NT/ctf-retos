@@ -32,3 +32,6 @@ Detección de sistema operativo y versión:
 nmap -p 80 -A 192.168.1.5
 ```
 ![3](https://user-images.githubusercontent.com/75953873/171917441-d5f58873-8274-4611-90f6-db7bb9902c1a.png)
+
+Puerto abierto: 80
+Servidor web corriendo: HTTP Apache
