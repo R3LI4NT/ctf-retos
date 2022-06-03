@@ -8,5 +8,7 @@ Vulnhub: https://www.vulnhub.com/entry/hackademic-rtb1,17/
 
 Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Hackademic-RTB1-22?lang=es
 
+<h1 align="center"></h1>
+
 </br>
 - *Paso 1:* Example.txt 
