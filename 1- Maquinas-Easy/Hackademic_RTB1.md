@@ -1,4 +1,4 @@
-<h1 align="center">https://readme-typing-svg.herokuapp.com?size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1)](https://git.io/typing-svg</h1>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1)](https://git.io/typing-svg)
 
 **[Descargar máquina]:**
 
