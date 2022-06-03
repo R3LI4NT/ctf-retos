@@ -36,3 +36,10 @@ nmap -p 80 -A 192.168.1.5
 Puerto abierto: 80
 
 Servidor web corriendo: HTTP Apache
+
+- *Paso 3:* Búsqueda de vectores vulnerables con WPScan. 
+
+```
+http://192.168.1.5/Hackademic_RTB1/
+```
+![3](https://user-images.githubusercontent.com/75953873/171918605-9a470fc4-80d1-4742-a3db-47d40198b968.png)
