@@ -102,3 +102,9 @@ http://192.168.1.5/Hackademic_RTB1/wp-content/plugins/hello.php
 
 ![12](https://user-images.githubusercontent.com/75953873/171928596-5a971c00-0c42-4d48-bf3c-93a776150472.png)
 
+Localizar el exploit con searchsploit:
+```
+searchsploit Linux Kernel 2.6.3 RDS Local Privilege Escalation
+```
+![13](https://user-images.githubusercontent.com/75953873/171930886-0c5950e1-7c71-4a88-9aec-0b2fd90a1fa4.png)
+
