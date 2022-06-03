@@ -70,3 +70,5 @@ Acceder al panel de login de WordPress:
 http://192.168.1.5/Hackademic_RTB1/wp-login.php
 ```
 ![7](https://user-images.githubusercontent.com/75953873/171924583-6a77c97a-d61c-4d81-a199-39077d868d4b.png)
+
+- *Paso 4:* Subir código PHP y obtener una reverse shell. 
