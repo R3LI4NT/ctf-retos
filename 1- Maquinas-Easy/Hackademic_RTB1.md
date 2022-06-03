@@ -1,3 +1,4 @@
+<h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/171913457-78fa5aec-61c8-480f-b537-063cac5d6ada.png"></h1>
 ![hackademic](https://user-images.githubusercontent.com/75953873/171913457-78fa5aec-61c8-480f-b537-063cac5d6ada.png)
 
 **[Descargar máquina]:**
