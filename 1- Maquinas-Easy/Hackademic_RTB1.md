@@ -98,3 +98,7 @@ http://192.168.1.5/Hackademic_RTB1/wp-content/plugins/hello.php
 ```
 ![11](https://user-images.githubusercontent.com/75953873/171927713-64734806-0fc2-41d6-8b17-aff9e45f4b35.png)
 
+- *Paso 5:* Identificar versión del Kernel y escalar privilegios. 
+
+![12](https://user-images.githubusercontent.com/75953873/171928596-5a971c00-0c42-4d48-bf3c-93a776150472.png)
+
