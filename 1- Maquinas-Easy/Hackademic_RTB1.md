@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/171913457-78fa5aec-61c8-480f-b537-063cac5d6ada.png"></h1>
+<h1 align="center">https://readme-typing-svg.herokuapp.com?size=50&color=F70000&background=FF000000&width=500&height=70&lines=HACKADEMIC+RTB1)](https://git.io/typing-svg</h1>
 
 **[Descargar máquina]:**
 
