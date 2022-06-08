@@ -6,11 +6,13 @@
 
 **[Descargar máquina]:**
 
-Vulnhub: https://www.vulnhub.com/entry/hackademic-rtb1,17/
+Vulnhub: https://www.vulnhub.com/entry/metasploitable-2,29/
+
+Sourceforge: https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 
 **[Online]:**
 
-Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Hackademic-RTB1-22?lang=es
+Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Metasploitable-2-13?lang=en
 
 <h1 align="center"></h1>
 
