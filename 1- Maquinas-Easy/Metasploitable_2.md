@@ -24,9 +24,9 @@ nmap -p- --open -sC -n -Pn -vvv ctf04.root-me.org
 ```
 ![1](https://user-images.githubusercontent.com/75953873/172515652-41a49316-c195-462f-a88b-bfba74051bf2.png)
 
-Puertos abiertos: [21,22,23,25,53,80,,11,139,445,3306,5900]
+Puertos abiertos: [21,22,23,25,53,80,11,139,445,3306,5900]
 
 - *Paso 2:* Detección de servicios y su respectiva versión. 
 ```
-nmap -p 21,22,23,25,53,80,,11,139,445,3306,5900 -sV ctf04.root-me.org
+nmap -p 21,22,23,25,53,80,11,139,445,3306,5900 -sV ctf04.root-me.org
 ```
