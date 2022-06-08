@@ -58,7 +58,7 @@ ping -c 2 ctf04.root-me.org
 ```
 ![5](https://user-images.githubusercontent.com/75953873/172519517-52e00c2d-277e-43d7-838e-796e99e2ed34.png)
 
-IP: 212.129.29.186
+**IP:** 212.129.29.186
 
 Ejecución del exploit:
 ```
