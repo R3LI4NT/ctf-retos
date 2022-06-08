@@ -64,3 +64,13 @@ Ejecución del exploit:
 ```
 python3 49757.py 212.129.29.186
 ```
+![6](https://user-images.githubusercontent.com/75953873/172519805-0a9e2b66-d85c-4b2a-a5d8-8801fea887c1.png)
+
+Localizar fichero `passwd` y validar flag:
+```
+cat passwd
+```
+![7](https://user-images.githubusercontent.com/75953873/172520170-d1cc17c5-5124-4c2f-ba76-10835fc58344.png)
+
+Key: bb43e7cf2385d2c38fd5a232b435e59d
+
