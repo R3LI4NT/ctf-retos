@@ -66,7 +66,7 @@ python3 49757.py 212.129.29.186
 ```
 ![6](https://user-images.githubusercontent.com/75953873/172519805-0a9e2b66-d85c-4b2a-a5d8-8801fea887c1.png)
 
-Localizar fichero `passwd` y validar flag:
+Localizar fichero `passwd` y extraer flag (key):
 ```
 cat passwd
 ```
