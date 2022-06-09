@@ -1,4 +1,4 @@
-## PRÁCTICA DE CAPTURA LA BANDERA - Máquinas resueltas
+## PRÁCTICA DE CAPTURA LA BANDERA - Máquinas resueltas 🚩
 
 *NIVEL:* **Easy**
 
