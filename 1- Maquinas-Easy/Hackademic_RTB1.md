@@ -73,7 +73,7 @@ http://192.168.1.5/Hackademic_RTB1/wp-login.php
 
 - *Paso 5:* Subir código PHP y obtener una reverse shell. 
 
--> Manage -> Files
+**->** Manage **->** Files
 
 ![8](https://user-images.githubusercontent.com/75953873/171925393-d911ddcf-cf5a-4670-8143-4026d0c70424.png)
 
