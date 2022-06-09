@@ -32,7 +32,7 @@ nmap -p 21,22,23,25,53,80,110,139,445,3306,5900 -sV ctf04.root-me.org
 ```
 ![2](https://user-images.githubusercontent.com/75953873/172518304-45323ab6-0e48-425d-9bf4-5e3689b86200.png)
 
-Objetivo: Puerto 80 -> Servicio FTP -> Versión -> vsFTPd 2.3.4
+Objetivo: Puerto 21 -> Servicio FTP -> Versión -> vsFTPd 2.3.4
 
 - *Paso 3:* Identificación de exploit y descarga. 
 ```
