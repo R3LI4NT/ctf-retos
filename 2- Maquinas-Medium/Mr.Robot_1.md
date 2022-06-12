@@ -93,6 +93,6 @@ weevely http://ctf14.root-me.org/wp-content/uploads/2022/06/backdoor.php pass123
 ```
 ![12](https://user-images.githubusercontent.com/75953873/173257930-15d0189a-e1bd-4a23-84df-7b79357ae5f5.png)
 
-Entramos al direcorio `/home` **>** robot **>** `cat` para mostrar el contenido del archivo password.raw-md5.
+Entramos al direcorio `/home` **>** robot **>** `cat` para mostrar el contenido del archivo `password.raw-md5`.
 
 ![13](https://user-images.githubusercontent.com/75953873/173258021-b8bb555d-5578-4f35-a6ed-89c0c0a08a17.png)
