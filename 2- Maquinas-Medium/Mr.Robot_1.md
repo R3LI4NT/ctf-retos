@@ -51,5 +51,6 @@ echo 'ZWxsaW90OkVSMjgtMDY1Mgo=' | base64 -d
 ```
 ![4](https://user-images.githubusercontent.com/75953873/173257252-c7dac9d3-f612-44ff-b31b-9d9baf5d297e.png)
 
-Usuario: elliot
-Contraseña: ER28-0652
+Usuario: `elliot`
+
+Contraseña: `ER28-0652`
