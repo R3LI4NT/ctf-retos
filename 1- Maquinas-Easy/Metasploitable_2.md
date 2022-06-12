@@ -72,6 +72,6 @@ cat passwd
 ```
 ![7](https://user-images.githubusercontent.com/75953873/172520170-d1cc17c5-5124-4c2f-ba76-10835fc58344.png)
 
-**Key:** bb43e7cf2385d2c38fd5a232b435e59d
+**KEY:** bb43e7cf2385d2c38fd5a232b435e59d
 
 ![8](https://user-images.githubusercontent.com/75953873/172520842-29a1669f-f89d-44b4-a818-297d7b1b472f.png)
