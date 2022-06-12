@@ -68,3 +68,21 @@ Plugins **>** instalar plugins
 Agregar nuevo plugin **>** Subir plugin
 
 ![7](https://user-images.githubusercontent.com/75953873/173257639-ce85dec7-fc54-4830-88b4-f040fa379b14.png)
+
+- *Paso 5:* Crear backdoor con weevely.
+```
+weevely generate pass123 backdoor.php
+```
+![8](https://user-images.githubusercontent.com/75953873/173257694-583bc09c-8970-45bf-abd2-cd033643ef74.png)
+
+- *Paso 6:* Subir backdoor como un plugin más.
+
+![9](https://user-images.githubusercontent.com/75953873/173257782-8da08f9d-c687-458c-a84e-bb0cfd0ae0d0.png)
+
+En el apartado de `Media` tenemos archivos e imágenes, el que nos interesa es el `backdoor.php` que acabamos de subir. Doble clic sobre él y copiamos la URL que esta en `Description`.
+
+![10](https://user-images.githubusercontent.com/75953873/173257806-03d06d7d-9f12-4d0a-896a-daa654620609.png)
+
+![11](https://user-images.githubusercontent.com/75953873/173257849-3f3aa920-9d27-4dd6-88fa-e26396948493.png)
+
+URL: http://ctf14.root-me.org/wp-content/uploads/2022/06/backdoor.php
