@@ -6,11 +6,11 @@
 
 **[Descargar máquina]:**
 
-Vulnhub: s
+Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/
 
 **[Online]:**
 
-Root-Me: 
+Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/test?lang=es
 
 <h1 align="center"></h1>
 
