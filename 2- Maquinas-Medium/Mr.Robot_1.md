@@ -36,7 +36,7 @@ URL objetivo: http://ctf14.root-me.org/license
 
 Credenciales ofuscadas a base64: **ZWxsaW90OkVSMjgtMDY1Mgo=**
 
-- *Paso 2:* Decodificar credenciales con python y bash.
+- *Paso 2:* Decodificar credenciales con Python y Bash.
 
 `Python:`
 ```python
@@ -49,3 +49,7 @@ print(base64.b64decode(key))
 ```
 echo 'ZWxsaW90OkVSMjgtMDY1Mgo=' | base64 -d
 ```
+![4](https://user-images.githubusercontent.com/75953873/173257252-c7dac9d3-f612-44ff-b31b-9d9baf5d297e.png)
+
+Usuario: elliot
+Contraseña: ER28-0652
