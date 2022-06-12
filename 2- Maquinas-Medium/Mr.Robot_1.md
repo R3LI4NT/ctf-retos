@@ -97,7 +97,7 @@ Entramos al direcorio `/home` **>** robot **>** `cat` para mostrar el contenido 
 
 ![13](https://user-images.githubusercontent.com/75953873/173258021-b8bb555d-5578-4f35-a6ed-89c0c0a08a17.png)
 
-Hash: c3fcd3d76192e4007dfb496cca67e13b
+Hash: `c3fcd3d76192e4007dfb496cca67e13b`
 
 - *Paso 8:* Identificación de tipo de hash con Hash-Identifier.
 ```
@@ -106,3 +106,17 @@ hash-identifier
 ![14](https://user-images.githubusercontent.com/75953873/173258174-b4dc146e-bba1-4433-b52f-343b83020f9d.png)
 
 Tipo de hash: MD5
+
+- *Paso 9:* Desencriptar hash con JohnTheRipper y de forma online.
+`JohnTheRipper:`
+```
+john --format=Raw-MD5 --wordlist=/home/whoami/crackMD5.txt hash.txt
+```
+![16](https://user-images.githubusercontent.com/75953873/173258469-18fcf953-77ba-4c07-b2e9-692086788ec8.png)
+
+`Online:`
+- https://hashtoolkit.com/decrypt-md5-hash/
+
+![15](https://user-images.githubusercontent.com/75953873/173258477-324ff102-6b01-4c81-807b-6148b9fccbdd.png)
+
+Clave desencriptada: 	`abcdefghijklmnopqrstuvwxyz`
