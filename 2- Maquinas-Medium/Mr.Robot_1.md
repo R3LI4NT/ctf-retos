@@ -105,9 +105,10 @@ hash-identifier
 ```
 ![14](https://user-images.githubusercontent.com/75953873/173258174-b4dc146e-bba1-4433-b52f-343b83020f9d.png)
 
-Tipo de hash: MD5
+Tipo de hash: **MD5**
 
 - *Paso 9:* Desencriptar hash con JohnTheRipper y de forma online.
+- 
 `JohnTheRipper:`
 ```
 john --format=Raw-MD5 --wordlist=/home/whoami/crackMD5.txt hash.txt
