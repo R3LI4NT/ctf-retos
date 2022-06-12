@@ -108,7 +108,7 @@ hash-identifier
 Tipo de hash: **MD5**
 
 - *Paso 9:* Desencriptar hash con JohnTheRipper y de forma online.
-- 
+
 `JohnTheRipper:`
 ```
 john --format=Raw-MD5 --wordlist=/home/whoami/crackMD5.txt hash.txt
