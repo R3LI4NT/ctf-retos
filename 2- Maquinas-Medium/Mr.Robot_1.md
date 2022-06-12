@@ -36,7 +36,7 @@ URL objetivo: http://ctf14.root-me.org/license
 
 Credenciales ofuscadas a base64: **ZWxsaW90OkVSMjgtMDY1Mgo=**
 
-- *Paso 2:* Decodificar credenciales con Python y Bash.
+- *Paso 3:* Decodificar credenciales con Python y Bash.
 
 `Python:`
 ```python
@@ -54,3 +54,9 @@ echo 'ZWxsaW90OkVSMjgtMDY1Mgo=' | base64 -d
 Usuario: `elliot`
 
 Contraseña: `ER28-0652`
+
+- *Paso 4:* Acceder al panel de administración de WordPress, generalmente se agrega` /wp-admin.php` o `/wp-login.php` al final del dominio.
+```
+http://ctf14.root-me.org/wp-login.php
+```
+![5](https://user-images.githubusercontent.com/75953873/173257567-b73aa894-5756-41d1-b73b-f31db5de3f3d.png)
