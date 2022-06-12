@@ -16,7 +16,31 @@ Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/test?lang=e
 
 </br>
 
-- *Paso 1:* Añadir `/license` al final de la dirección (URL). 
+- *Paso 1:* Escanear todos los puertos que están abiertos con Nmap. 
 ```
+nmap -p- --open -sC -n -Pn -vvv ctf14.root-me.org
+```
+![1](https://user-images.githubusercontent.com/75953873/173256530-9e554740-e9d2-450e-8e1a-209d773c7247.png)
 
+Puertos abiertos: [22,80,443]
+
+- *Paso 2:* Enumerar directorios web con Dirb. 
+```
+dirb http://ctf14.root-me.org /usr/share/dirb/wordlists/small.txt
+```
+![2](https://user-images.githubusercontent.com/75953873/173256804-380ff8a7-8b69-4153-8ee8-8c1eb7c8eb0d.png)
+
+URL objetivo: http://ctf14.root-me.org/license
+
+![3](https://user-images.githubusercontent.com/75953873/173256860-82d25cc3-6a8c-4e59-97a8-cbe263df5162.png)
+
+Credenciales ofuscadas a base64: **ZWxsaW90OkVSMjgtMDY1Mgo=**
+
+- *Paso 2:* Decodificar credenciales con python y bash.
+
+`Python:`
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
