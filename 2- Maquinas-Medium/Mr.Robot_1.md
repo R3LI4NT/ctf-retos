@@ -55,8 +55,16 @@ Usuario: `elliot`
 
 Contraseña: `ER28-0652`
 
-- *Paso 4:* Acceder al panel de administración de WordPress, generalmente se agrega` /wp-admin.php` o `/wp-login.php` al final del dominio.
+- *Paso 4:* Acceder al panel de administración de WordPress, generalmente se agrega `/wp-admin.php` o `/wp-login.php` al final del dominio.
 ```
 http://ctf14.root-me.org/wp-login.php
 ```
 ![5](https://user-images.githubusercontent.com/75953873/173257567-b73aa894-5756-41d1-b73b-f31db5de3f3d.png)
+
+Plugins **>** instalar plugins
+
+![6](https://user-images.githubusercontent.com/75953873/173257615-a9b95d88-ca5a-4a92-95a3-3391c4bd38a3.png)
+
+Agregar nuevo plugin **>** Subir plugin
+
+![7](https://user-images.githubusercontent.com/75953873/173257639-ce85dec7-fc54-4830-88b4-f040fa379b14.png)
