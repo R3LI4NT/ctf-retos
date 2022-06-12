@@ -39,8 +39,13 @@ Credenciales ofuscadas a base64: **ZWxsaW90OkVSMjgtMDY1Mgo=**
 - *Paso 2:* Decodificar credenciales con python y bash.
 
 `Python:`
+```python
+import base64
+key = 'ZWxsaW90OkVSMjgtMDY1Mgo='
+print(base64.b64decode(key))
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+
+`Bash:`
+```
+echo 'ZWxsaW90OkVSMjgtMDY1Mgo=' | base64 -d
 ```
