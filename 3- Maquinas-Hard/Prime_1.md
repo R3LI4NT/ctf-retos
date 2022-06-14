@@ -96,4 +96,12 @@ URL completa: `http://192.168.25.133/image.php?secrettier360=/home/saket/passwor
 
 ![14](https://user-images.githubusercontent.com/75953873/173481656-71110280-511b-4654-823f-1a818ed71a09.png)
 
-<u>Credenciales WordPress</u>
+**_Credenciales WordPress_**
+
+Usuario: `victor`
+
+Contraseña: `follow_the_ippsec`
+
+URL login: `http://192.168.25.133/wordpress/wp-login.php`
+
+![15](https://user-images.githubusercontent.com/75953873/173482220-0ac1e036-8fea-4224-a696-d31344dd3aa1.png)
