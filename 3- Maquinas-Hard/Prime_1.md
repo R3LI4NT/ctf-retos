@@ -106,8 +106,17 @@ URL login: `http://192.168.25.133/wordpress/wp-login.php`
 
 ![15](https://user-images.githubusercontent.com/75953873/173482220-0ac1e036-8fea-4224-a696-d31344dd3aa1.png)
 
-- *Paso 5:* Escribir código malicioso PHP y obtener una reverse shell.
+- *Paso 5:* Escribir código malicioso PHP y obtener una reverse shell con Netcat.
 
 Apariencia **>** Editor de temas **>** secret.php
 
 ![16](https://user-images.githubusercontent.com/75953873/173482698-dbb9561f-e59e-41ef-82d9-8a2152341170.png)
+
+Ruta del código PHP del reverse shell:
+
+```
+cat /usr/share/webshells/php/php-reverse-shell.php
+```
+Cambiar la línea `$ip` por la IP local de su máquina, el puerto lo establecen a `4444`.
+
+![17](https://user-images.githubusercontent.com/75953873/173483657-ba14c2b4-ec49-46ec-99e2-d87a7702e9b1.png)
