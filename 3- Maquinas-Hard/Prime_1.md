@@ -136,12 +136,14 @@ cat user.txt && cat password.txt
 ```
 ![19](https://user-images.githubusercontent.com/75953873/173485677-7abb1021-7e79-4e87-ba5c-20cb4fffc4d2.png)
 
-- *Paso 7:* Escalar privilegios: buscar exploit con searchsploit.
+- *Paso 7:* Escalar privilegios: buscar exploit.
 
 ![20](https://user-images.githubusercontent.com/75953873/173485896-7949c037-0d58-4c15-b031-ea2413af4110.png)
 
 Versión del kernel: `4.10.0-28-generic`
 
-```
-cat user.txt && cat password.txt
-```
+![21](https://user-images.githubusercontent.com/75953873/173487947-ee6f8a17-ab97-4f46-93f6-11cf43ed5e7f.png)
+
+Repositorio del código: `https://github.com/kkamagui/linux-kernel-exploits/blob/master/kernel-4.10.0-28-generic/CVE-2017-16995/CVE-2017-16995.c`
+
+Copiar el código y guardarlo con la extensión `kernel.c`.
