@@ -88,6 +88,6 @@ dirb http://192.168.25.133 -X .php `http://192.168.25.133/image.php?secrettier36
 
 URL completa: `http://192.168.25.133/image.php?secrettier360=/etc/passwd`
 
-El usuario `Saket` que dentro de su directorio `/home/saket/` se encuentra el archivo `password.txt`.
+El usuario `Saket` menciona que dentro de su directorio `/home/saket/` se encuentra el archivo `password.txt`.
 
 ![13](https://user-images.githubusercontent.com/75953873/173481350-5277704e-627a-4568-9ded-bf3f91e9a38f.png)
