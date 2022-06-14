@@ -1,5 +1,10 @@
 ## PRÁCTICA DE CAPTURA LA BANDERA - Máquinas resueltas 🚩
 
+
+<h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/173473382-ea5151d3-ed8f-49b9-9de7-87ba975e15e6.png"></h1>
+
+</br>
+
 *NIVEL:* **Easy**
 
 <sub>O.S: **Linux**</sub>
