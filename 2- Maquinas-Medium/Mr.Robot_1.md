@@ -16,7 +16,7 @@ Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/test?lang=e
 
 </br>
 
-- *Paso 1:* Escanear todos los puertos que están abiertos con Nmap. 
+- *Paso 1:* Escanear todos los puertos que estén abiertos con Nmap. 
 ```
 nmap -p- --open -sC -n -Pn -vvv ctf14.root-me.org
 ```
