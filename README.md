@@ -17,7 +17,7 @@
 
 <sub>O.S: **Linux**</sub>
 
-- 1) <a href="https://github.com/R3LI4NT/ctf-retos/blob/main/2-%20Maquinas-Medium/Mr.Robot_1.md" target="_blank"> Mr.Robot_1</a>
+- 1)<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/2-%20Maquinas-Medium/Mr.Robot_1.md" target="_blank"> Mr.Robot_1</a>
 
 <h1 align="center"></h1>
 
