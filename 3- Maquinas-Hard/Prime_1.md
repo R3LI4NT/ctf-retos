@@ -68,3 +68,5 @@ Archivo proporcionado: `location.txt`
 URL completa: `http://192.168.25.133/index.php?file=location.txt`
 
 ![10](https://user-images.githubusercontent.com/75953873/173478934-d1f7d4ab-2b65-4666-87f9-346ebcae02b7.png)
+
+El archivo `location.txt` nos dio una pista para usar `secrettire360` como parámetro en otra página php aprovechando la vulnerabilidad de inclusión de archivos locales (LFI).
