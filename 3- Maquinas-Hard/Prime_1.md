@@ -36,4 +36,14 @@ nmap -A 192.168.25.133
 ```
 ![4](https://user-images.githubusercontent.com/75953873/173476100-ae65ae3d-4a36-466c-aa98-fbc4fee2c738.png)
 
-Servidor corriendo: **Apache**
+Servidor corriendo: **HTTP Apache**
+
+- *Paso 4:* Enumerar directorios web con Dirb.
+
+URL: `http://192.168.25.133`
+
+![5](https://user-images.githubusercontent.com/75953873/173476731-79f7a93a-f659-4563-9cfd-d1f271f16a90.png)
+
+```
+dirb http://192.168.25.133
+```
