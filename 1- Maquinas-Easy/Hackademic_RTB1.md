@@ -25,7 +25,7 @@ netdiscover --interface wlan0 --range 192.168.1.0/24
 Objetivo: 192.168.1.5
 
 
-- *Paso 2:* Escaneo de puertos abiertos con Nmap. 
+- *Paso 2:* Escanear todos los puertos que estén abiertos con Nmap.  
 ```
 nmap -p- --open -sC -n -vvv 192.168.1.5
 ```
