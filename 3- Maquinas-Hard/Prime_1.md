@@ -128,4 +128,4 @@ nc -lvp 4444
 
 Recargar URL: `http://192.168.25.133/wordpress/wp-content/themes/twentynineteen/secret.php`
 
-![18](https://user-images.githubusercontent.com/75953873/173485100-521d3774-aeab-414b-a9a1-3f78b35b5e8f.png)
+![18](https://user-images.githubusercontent.com/75953873/173485293-44576e95-de83-4473-a5f7-bb5a11c5db44.png)
