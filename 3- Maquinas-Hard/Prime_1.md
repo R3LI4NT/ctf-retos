@@ -70,3 +70,18 @@ URL completa: `http://192.168.25.133/index.php?file=location.txt`
 ![10](https://user-images.githubusercontent.com/75953873/173478934-d1f7d4ab-2b65-4666-87f9-346ebcae02b7.png)
 
 El archivo `location.txt` nos dio una pista para usar `secrettire360` como parámetro en otra página php aprovechando la vulnerabilidad de inclusión de archivos locales (LFI).
+
+Localizar archivos `.php` con Dirb:
+```
+dirb http://192.168.25.133 -X .php
+```
+![11](https://user-images.githubusercontent.com/75953873/173479528-29899116-a8f6-4a6a-b435-1ebca5e8c50d.png)
+
+Pista: `secrettire360`
+
+URL completa: `http://192.168.25.133/image.php?secrettier360`
+
+```
+dirb http://192.168.25.133 -X .php `http://192.168.25.133/image.php?secrettier360` /usr/share/dirb/wordlists/extensions_common.txt
+```
+![12](https://user-images.githubusercontent.com/75953873/173480064-2e0d0446-d55b-4bbc-97d1-1e7b4fa919f1.png)
