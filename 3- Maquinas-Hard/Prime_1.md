@@ -52,3 +52,9 @@ dirb http://192.168.25.133 -X .txt
 Archivo secreto: `http://192.168.25.133/secret.txt`
 
 ![7](https://user-images.githubusercontent.com/75953873/173477715-6d51f82c-21fe-42c4-854f-fc5f9ca5d17a.png)
+
+Probar los comandos Fuzzing que proporciona el repositorio de Github, el objetivo es encontrar un párametro para navegar dentro de él.
+
+Comando fuzzy: `file`
+
+![8](https://user-images.githubusercontent.com/75953873/173478463-cfd85ea0-4cdc-465c-95a1-79f699dcfd5a.png)
