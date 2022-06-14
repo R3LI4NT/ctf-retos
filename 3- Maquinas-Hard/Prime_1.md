@@ -21,3 +21,11 @@ netdiscover -i eth0
 ![2](https://user-images.githubusercontent.com/75953873/173475187-1682b0c5-0c7e-410c-9455-98e8cd6c5e81.png)
 
 IP host: `192.168.25.133`
+
+- *Paso 2:* Escanear todos los puertos que estén abiertos con Nmap. 
+```
+nmap -p- --open -sC -n -Pn -vvv 192.168.25.133
+```
+![3](https://user-images.githubusercontent.com/75953873/173475468-fee78430-41f0-4a6f-a18d-5934250a6aac.png)
+
+Puertos abiertos: [22,80]
