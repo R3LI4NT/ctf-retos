@@ -38,12 +38,15 @@ nmap -A 192.168.25.133
 
 Servidor corriendo: **HTTP Apache**
 
-- *Paso 4:* Enumerar directorios web con Dirb.
+- *Paso 4:* Recorrido de ruta: enumerar archivos .txt con Dirb.
 
 URL: `http://192.168.25.133`
 
 ![5](https://user-images.githubusercontent.com/75953873/173476731-79f7a93a-f659-4563-9cfd-d1f271f16a90.png)
 
 ```
-dirb http://192.168.25.133
+dirb http://192.168.25.133 -X .txt
 ```
+![6](https://user-images.githubusercontent.com/75953873/173477255-427b51b9-6023-48d8-a0aa-fbb42aa4af16.png)
+
+Archivo secreto: `http://192.168.25.133/secret.txt`
