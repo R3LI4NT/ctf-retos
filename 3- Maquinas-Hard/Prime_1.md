@@ -105,3 +105,9 @@ Contraseña: `follow_the_ippsec`
 URL login: `http://192.168.25.133/wordpress/wp-login.php`
 
 ![15](https://user-images.githubusercontent.com/75953873/173482220-0ac1e036-8fea-4224-a696-d31344dd3aa1.png)
+
+- *Paso 5:* Escribir código malicioso PHP y obtener una reverse shell.
+
+Apariencia **>** Editor de temas **>** secret.php
+
+![16](https://user-images.githubusercontent.com/75953873/173482698-dbb9561f-e59e-41ef-82d9-8a2152341170.png)
