@@ -173,3 +173,5 @@ cat root.txt
 ![24](https://user-images.githubusercontent.com/75953873/173489371-d5c4398b-a2a6-4222-89c0-07be64091c03.png)
 
 **KEY:** b2b17036da1de94cfb024540a8e7075a
+
+Artículo Hack_X_Crack: https://hackxcrack.net/foro/hacking/ctf-prime_1-(resuelto)-preparacion-oscp/
