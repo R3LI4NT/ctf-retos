@@ -50,3 +50,5 @@ dirb http://192.168.25.133 -X .txt
 ![6](https://user-images.githubusercontent.com/75953873/173477255-427b51b9-6023-48d8-a0aa-fbb42aa4af16.png)
 
 Archivo secreto: `http://192.168.25.133/secret.txt`
+
+![7](https://user-images.githubusercontent.com/75953873/173477715-6d51f82c-21fe-42c4-854f-fc5f9ca5d17a.png)
