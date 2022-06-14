@@ -147,3 +147,9 @@ Versión del kernel: `4.10.0-28-generic`
 Repositorio del código: `https://github.com/kkamagui/linux-kernel-exploits/blob/master/kernel-4.10.0-28-generic/CVE-2017-16995/CVE-2017-16995.c`
 
 Copiar el código y guardarlo con la extensión `kernel.c`.
+
+Abrir un servidor local en el puerto 80 con Python3:
+```
+python3 -m http.server 80
+```
+![22](https://user-images.githubusercontent.com/75953873/173488228-64eac9ac-e121-49f5-b84b-eea275f526ff.png)
