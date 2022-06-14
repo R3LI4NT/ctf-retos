@@ -53,7 +53,7 @@ Archivo secreto: `http://192.168.25.133/secret.txt`
 
 ![7](https://user-images.githubusercontent.com/75953873/173477715-6d51f82c-21fe-42c4-854f-fc5f9ca5d17a.png)
 
-Probar los comandos Fuzzing que proporciona el repositorio de Github, el objetivo es encontrar un párametro para navegar dentro de él.
+Probar los comandos Fuzzing que proporciona el repositorio de Github, el objetivo es encontrar un parámetro para navegar dentro de él.
 
 Comando fuzzy: `file`
 
@@ -69,7 +69,7 @@ URL completa: `http://192.168.25.133/index.php?file=location.txt`
 
 ![10](https://user-images.githubusercontent.com/75953873/173478934-d1f7d4ab-2b65-4666-87f9-346ebcae02b7.png)
 
-El archivo `location.txt` nos dio una pista para usar `secrettire360` como parámetro en otra página php aprovechando la vulnerabilidad de inclusión de archivos locales (LFI).
+El archivo `location.txt` da una pista para usar `secrettire360` como parámetro en otra página php aprovechando la vulnerabilidad de inclusión de archivos locales (LFI).
 
 Localizar archivos `.php` con Dirb:
 ```
@@ -164,7 +164,7 @@ chmod 777 kernel
 ```
 ![23](https://user-images.githubusercontent.com/75953873/173488738-0392288d-4024-488b-9295-e4ea89066120.png)
 
-Por último, explotamos el kernel `./kernel` y extraemos la key (flag) del fichero `root.txt` dentro del directorio `/root`:
+Por último, explotar el kernel `./kernel` y extraer la key (flag) del fichero `root.txt` dentro del directorio `/root`:
 ```
 ./kernel
 cd /root
