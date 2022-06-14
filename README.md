@@ -21,5 +21,5 @@
 
 <h1 align="center"></h1>
 
-*NIVEL:* **Difficult**
+*NIVEL:* **Hard**
   - En proceso....
