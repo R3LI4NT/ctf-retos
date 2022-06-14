@@ -129,3 +129,9 @@ nc -lvp 4444
 Recargar URL: `http://192.168.25.133/wordpress/wp-content/themes/twentynineteen/secret.php`
 
 ![18](https://user-images.githubusercontent.com/75953873/173485293-44576e95-de83-4473-a5f7-bb5a11c5db44.png)
+
+Extraer información de los ficheros `user.txt` y `password.txt`:
+```
+cat user.txt && cat password.txt
+```
+![19](https://user-images.githubusercontent.com/75953873/173485677-7abb1021-7e79-4e87-ba5c-20cb4fffc4d2.png)
