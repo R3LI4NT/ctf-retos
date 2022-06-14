@@ -163,8 +163,10 @@ chmod 777 kernel
 ```
 ![23](https://user-images.githubusercontent.com/75953873/173488738-0392288d-4024-488b-9295-e4ea89066120.png)
 
-Por último, explotamos el kernel `./kernel` y extraemos la key (flag) del fichero `root.txt`:
+Por último, explotamos el kernel `./kernel` y extraemos la key (flag) del fichero `root.txt` del directorio `/root`:
 ```
+./kernel
+cd /root
 cat root.txt
 ```
 ![24](https://user-images.githubusercontent.com/75953873/173489371-d5c4398b-a2a6-4222-89c0-07be64091c03.png)
