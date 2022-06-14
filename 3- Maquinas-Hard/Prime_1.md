@@ -29,3 +29,11 @@ nmap -p- --open -sC -n -Pn -vvv 192.168.25.133
 ![3](https://user-images.githubusercontent.com/75953873/173475468-fee78430-41f0-4a6f-a18d-5934250a6aac.png)
 
 Puertos abiertos: [22,80]
+
+- *Paso 3:* Escaneo agresivo para detectar servicios corriendo.
+```
+nmap -A 192.168.25.133
+```
+![4](https://user-images.githubusercontent.com/75953873/173476100-ae65ae3d-4a36-466c-aa98-fbc4fee2c738.png)
+
+Servidor corriendo: **Apache**
