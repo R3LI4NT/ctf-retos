@@ -4,7 +4,7 @@
 
 <sub>O.S: **Linux**</sub>
 
-- 1)-<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Metasploitable_2.md" target="_blank">Metasploitable_2</a>
+- 1)-<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Metasploitable_2.md" target="_blank"> Metasploitable_2</a>
 
 - <a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Basic_Pentesting_1.md" target="_blank">Basic_Pentesting_1</a>
 
