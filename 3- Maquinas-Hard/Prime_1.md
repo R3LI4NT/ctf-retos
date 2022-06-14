@@ -117,8 +117,8 @@ Ruta del código PHP del reverse shell:
 ```
 cat /usr/share/webshells/php/php-reverse-shell.php
 ```
-Cambiar la línea `$ip` por la IP local de su máquina, el puerto lo establecen a `4444`. Guardar cambios **_'Update Files'_**
+Cambiar la línea `$ip` por la IP local de su máquina, el puerto lo establecen a `4444`. Guardar cambios **_'Update Files'_**.
 
-![17](https://user-images.githubusercontent.com/75953873/173483657-ba14c2b4-ec49-46ec-99e2-d87a7702e9b1.png)
+![17](https://user-images.githubusercontent.com/75953873/173484877-992337aa-07ec-4e77-9911-3d2012f90cec.png)
 
-- *Paso 6:* Escribir código malicioso PHP.
+- *Paso 6:* Obtener una reverse shell con Netcat.
