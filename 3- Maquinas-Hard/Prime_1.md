@@ -13,3 +13,11 @@ Vulnhub: https://www.vulnhub.com/entry/prime-1,358/
 > Esta máquina está diseñada para aquellos que intentan prepararse para el examen OSCP. 
 
 <h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/173474426-a673d820-8b68-40c9-89f6-4686e436978f.png"></h1>
+
+- *Paso 1:* Identificar la IP de la máquina host con NetDiscover. 
+```
+netdiscover -i eth0
+```
+https://user-images.githubusercontent.com/75953873/173475187-1682b0c5-0c7e-410c-9455-98e8cd6c5e81.png
+
+IP host: `192.168.25.133`
