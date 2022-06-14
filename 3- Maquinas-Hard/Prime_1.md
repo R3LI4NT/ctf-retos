@@ -135,3 +135,13 @@ Extraer información de los ficheros `user.txt` y `password.txt`:
 cat user.txt && cat password.txt
 ```
 ![19](https://user-images.githubusercontent.com/75953873/173485677-7abb1021-7e79-4e87-ba5c-20cb4fffc4d2.png)
+
+- *Paso 7:* Escalar privilegios: buscar exploit con searchsploit.
+
+![20](https://user-images.githubusercontent.com/75953873/173485896-7949c037-0d58-4c15-b031-ea2413af4110.png)
+
+Versión del kernel: `4.10.0-28-generic`
+
+```
+cat user.txt && cat password.txt
+```
