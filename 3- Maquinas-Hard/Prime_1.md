@@ -12,4 +12,4 @@ Vulnhub: https://www.vulnhub.com/entry/prime-1,358/
 
 > Esta máquina está diseñada para aquellos que intentan prepararse para OSCP o OSCP-Exam. 
 
-<h1 align="center"><img src="![1](https://user-images.githubusercontent.com/75953873/173474426-a673d820-8b68-40c9-89f6-4686e436978f.png"></h1>
+<h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/173474426-a673d820-8b68-40c9-89f6-4686e436978f.png"></h1>
