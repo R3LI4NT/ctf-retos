@@ -18,6 +18,6 @@ Vulnhub: https://www.vulnhub.com/entry/prime-1,358/
 ```
 netdiscover -i eth0
 ```
-https://user-images.githubusercontent.com/75953873/173475187-1682b0c5-0c7e-410c-9455-98e8cd6c5e81.png
+![2](https://user-images.githubusercontent.com/75953873/173475187-1682b0c5-0c7e-410c-9455-98e8cd6c5e81.png)
 
 IP host: `192.168.25.133`
