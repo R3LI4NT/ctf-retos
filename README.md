@@ -27,4 +27,4 @@
 <h1 align="center"></h1>
 
 *NIVEL:* **Hard**
-  - En proceso....
+- 1).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/3-%20Maquinas-Hard/Prime_1.md" target="_blank">Prime_1</a>
