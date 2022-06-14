@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=50&color=FF0000&width=200&height=70&lines=Prime_1"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=50&color=FF0000&width=230&height=70&lines=Prime_1"></a>
 </p>
 
 <h1 align="center"></h1>
@@ -130,8 +130,9 @@ Recargar URL: `http://192.168.25.133/wordpress/wp-content/themes/twentynineteen/
 
 ![18](https://user-images.githubusercontent.com/75953873/173485293-44576e95-de83-4473-a5f7-bb5a11c5db44.png)
 
-Extraer información de los ficheros `user.txt` y `password.txt`:
+Extraer información de los ficheros `user.txt` y `password.txt` dentro del directorio `/home/saket`:
 ```
+cd home && cd saket && ls 
 cat user.txt && cat password.txt
 ```
 ![19](https://user-images.githubusercontent.com/75953873/173485677-7abb1021-7e79-4e87-ba5c-20cb4fffc4d2.png)
@@ -163,7 +164,7 @@ chmod 777 kernel
 ```
 ![23](https://user-images.githubusercontent.com/75953873/173488738-0392288d-4024-488b-9295-e4ea89066120.png)
 
-Por último, explotamos el kernel `./kernel` y extraemos la key (flag) del fichero `root.txt` del directorio `/root`:
+Por último, explotamos el kernel `./kernel` y extraemos la key (flag) del fichero `root.txt` dentro del directorio `/root`:
 ```
 ./kernel
 cd /root
