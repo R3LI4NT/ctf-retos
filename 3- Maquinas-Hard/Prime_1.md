@@ -58,3 +58,13 @@ Probar los comandos Fuzzing que proporciona el repositorio de Github, el objetiv
 Comando fuzzy: `file`
 
 ![8](https://user-images.githubusercontent.com/75953873/173478463-cfd85ea0-4cdc-465c-95a1-79f699dcfd5a.png)
+
+Unir la URL: `http://192.168.25.133/index.php?file=`
+
+![9](https://user-images.githubusercontent.com/75953873/173478799-cd7249ce-8843-499b-917d-c43d22dcc4f4.png)
+
+Archivo proporcionado: `location.txt`
+
+URL completa: `http://192.168.25.133/index.php?file=location.txt`
+
+![10](https://user-images.githubusercontent.com/75953873/173478934-d1f7d4ab-2b65-4666-87f9-346ebcae02b7.png)
