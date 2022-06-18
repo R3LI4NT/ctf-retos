@@ -64,6 +64,6 @@ echo 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaX
 
 **_CREDENCIALES SSH_**
 
-Usuario: itsskv
+Usuario: `itsskv`
 
-Contraseña: cybersploit{youtube.com/c/cybersploit}
+Contraseña: `cybersploit{youtube.com/c/cybersploit}`
