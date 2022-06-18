@@ -39,7 +39,7 @@ Servidor corriendo: **HTTP Apache**
 
 ![4](https://user-images.githubusercontent.com/75953873/174458587-9dc99104-e733-4167-a77e-5637aa484cde.png)
 
-- *Paso 4:* Enumerar archivos web con Dirb. 
+- *Paso 4:* Enumerar archivos web con Dirb.
 ```
 dirb http://192.168.1.5 -w /usr/share/dirb/wordlists/common.txt
 ```
