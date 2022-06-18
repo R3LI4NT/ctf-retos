@@ -15,6 +15,8 @@
 
 - 3).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Hackademic_RTB1.md" target="_blank">Hackademic_RTB1</a>
 
+- 4).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/CyberSploit_1.md" target="_blank">CyberSploit_1</a>
+
 
 <h1 align="center"></h1>
 
