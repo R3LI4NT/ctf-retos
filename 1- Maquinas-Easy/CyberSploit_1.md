@@ -28,3 +28,8 @@ nmap -p- --open -sC -n -vvv 192.168.1.5
 ![2](https://user-images.githubusercontent.com/75953873/174458274-1cbb9500-5deb-43d7-a58c-1fa3ba579cc9.png)
 
 Puertos abiertos: [22,80]
+
+- *Paso 3:* Detección de servicios y su respectiva versión. 
+```
+nmap -p 22,80 -sV 192.168.1.5
+```
