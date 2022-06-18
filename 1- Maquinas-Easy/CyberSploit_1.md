@@ -20,3 +20,11 @@ netdiscover -i wlan0 -r 192.168.1/24
 ![1](https://user-images.githubusercontent.com/75953873/174458235-8b46f051-22c5-4c9e-a193-a21d2b15f82a.png)
 
 IP host: `192.168.1.5`
+
+- *Paso 2:* Escanear todos los puertos que estén abiertos con Nmap. 
+```
+nmap -p- --open -sC -n -vvv 192.168.1.5
+```
+![2](https://user-images.githubusercontent.com/75953873/174458274-1cbb9500-5deb-43d7-a58c-1fa3ba579cc9.png)
+
+Puertos abiertos: [22,80]
