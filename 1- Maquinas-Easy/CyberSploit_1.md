@@ -68,7 +68,7 @@ echo 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaX
 
 Usuario: `itsskv`
 
-Contraseña: `cybersploit{youtube.com/c/cybersploit}`
+Contraseña (**FLAG_1**): `cybersploit{youtube.com/c/cybersploit}`
 
 ```
 ssh itsskv@192.168.1.5
@@ -89,7 +89,7 @@ ONLINE: https://www.online-toolz.com/langs/es/tool-es-text-binary-convertor.html
 
 ![10](https://user-images.githubusercontent.com/75953873/174459040-d0e1d032-167b-464b-a9c4-d3aa8d57753d.png)
 
-Flag2: `cybersploit{https:t.me/cybersploit1}`
+**FLAG_2**: cybersploit{https:t.me/cybersploit1}
 
 - *Paso 7:* Escalar privilegios: buscar exploit con Searchsploit.
 
@@ -131,4 +131,4 @@ cat finalflag.txt
 ```
 ![16](https://user-images.githubusercontent.com/75953873/174459618-e2feb3f3-dca2-4041-ba44-0272c063c7dd.png)
 
-Flag3: `cybersploit{Z3X21CW42C4 many many congratulations !}`
+**FLAG_3**: cybersploit{Z3X21CW42C4 many many congratulations !}
