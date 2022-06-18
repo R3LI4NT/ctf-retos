@@ -123,3 +123,12 @@ chmod 777 kernel
 ```
 ![15](https://user-images.githubusercontent.com/75953873/174459564-3b68a9b2-1d9f-4bcf-8689-a2f0afe3d4f5.png)
 
+Por último, explotar el kernel `./kernel` y capturar la key (flag) del fichero `finalflag.txt` dentro del directorio `/root`:
+```
+./kernel
+cd /root
+cat finalflag.txt
+```
+![16](https://user-images.githubusercontent.com/75953873/174459618-e2feb3f3-dca2-4041-ba44-0272c063c7dd.png)
+
+Flag3: `cybersploit{Z3X21CW42C4 many many congratulations !}`
