@@ -8,6 +8,7 @@
 
 Vulnhub: https://www.vulnhub.com/entry/cybersploit-1,506/
 
+
 <h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/174417901-a2431e6b-3849-46e3-a0e4-ed3f8ed73e85.png"></h1>
 
 </br>
