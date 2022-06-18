@@ -75,7 +75,7 @@ ssh itsskv@192.168.1.5
 ```
 ![8](https://user-images.githubusercontent.com/75953873/174458910-2ecb3d1a-a76b-46b6-a51f-e14cc1e849b6.png)
 
-Buscar la segunda key (flag):
+Capturar la segunda flag:
 ```
 cat /home/itsskv/flag2.txt
 ```
