@@ -58,5 +58,6 @@ Mensaje ofuscado a base64: `R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUu
 
 Decodificar mensaje con Bash:
 ```
-bash 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaXR9' | -d base64
+echo 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaXR9' | base64 --decode
 ```
+![7](https://user-images.githubusercontent.com/75953873/174458797-e0ceea57-dcf1-4b3b-954c-b2dfaf1fd074.png)
