@@ -39,10 +39,24 @@ Servidor corriendo: **HTTP Apache**
 
 ![4](https://user-images.githubusercontent.com/75953873/174458587-9dc99104-e733-4167-a77e-5637aa484cde.png)
 
-- *Paso 4:* Enumeración: detección de archivos web con dirb. 
+- *Paso 4:* Enumeración: detección de archivos web con Dirb. 
 ```
 dirb http://192.168.1.5 -w /usr/share/dirb/wordlists/common.txt
 ```
 ![5](https://user-images.githubusercontent.com/75953873/174458681-2f5b9ac3-cf49-4484-8fa4-ecba37570950.png)
 
 Archivo: `robots.txt`
+
+Mostrar contenido del archivo con Curl:
+```
+curl http://192.168.1.5/robots.txt
+```
+
+Mensaje ofuscado a base64: `R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaXR9`
+
+![6](https://user-images.githubusercontent.com/75953873/174458725-43cc2b76-f495-443a-ac4d-83aacd133f9a.png)
+
+Decodificar mensaje con Bash:
+```
+bash 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaXR9' | -d base64
+```
