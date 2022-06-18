@@ -90,3 +90,14 @@ ONLINE: `https://www.online-toolz.com/langs/es/tool-es-text-binary-convertor.htm
 ![10](https://user-images.githubusercontent.com/75953873/174459040-d0e1d032-167b-464b-a9c4-d3aa8d57753d.png)
 
 Flag2: `cybersploit{https:t.me/cybersploit1}`
+
+- *Paso 7:* Escalar privilegios: buscar exploit con Searchsploit.
+
+Versión del kernel: `3.13.0-32`
+
+![12](https://user-images.githubusercontent.com/75953873/174459381-dc60d2c4-1bd2-426e-a9b5-2bb4dc27ab37.png)
+
+```
+searchsploit 3.13.0
+```
+![11](https://user-images.githubusercontent.com/75953873/174459391-4ab3d7ee-c30f-4ee0-9e95-76c82dac1e10.png)
