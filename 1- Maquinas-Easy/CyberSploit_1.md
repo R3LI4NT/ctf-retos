@@ -92,9 +92,9 @@ ONLINE: https://www.online-toolz.com/langs/es/tool-es-text-binary-convertor.html
 
 - *Paso 7:* Escalar privilegios: buscar exploit con Searchsploit.
 
-Versión del kernel: `3.13.0-32`
-
 ![12](https://user-images.githubusercontent.com/75953873/174459381-dc60d2c4-1bd2-426e-a9b5-2bb4dc27ab37.png)
+
+Versión del kernel: `3.13.0-32`
 
 ```
 searchsploit 3.13.0
