@@ -37,4 +37,12 @@ nmap -p 22,80 -A 192.168.1.5
 
 Servidor corriendo: **HTTP Apache**
 
-![4](https://user-images.githubusercontent.com/75953873/174458556-f0f91da9-4d66-4bd7-a395-e4569ffaa3bc.png)
+![4](https://user-images.githubusercontent.com/75953873/174458587-9dc99104-e733-4167-a77e-5637aa484cde.png)
+
+- *Paso 4:* Ataque de ruta: detección de archivos web con dirb. 
+```
+dirb http://192.168.1.5 -w /usr/share/dirb/wordlists/common.txt
+```
+![5](https://user-images.githubusercontent.com/75953873/174458681-2f5b9ac3-cf49-4484-8fa4-ecba37570950.png)
+
+Archivo:` robots.txt`
