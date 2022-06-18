@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=50&color=F7F400&width=500&height=80&lines=CYBERSPLOIT_1"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=50&color=F7F400&width=480&height=80&lines=CYBERSPLOIT_1"></a>
 </p>
 
 <h1 align="center"></h1>
@@ -15,8 +15,8 @@ Vulnhub: https://www.vulnhub.com/entry/cybersploit-1,506/
 
 - *Paso 1:* Identificar la IP de la máquina host con NetDiscover. 
 ```
-netdiscover -i eth0
+netdiscover -i wlan0 -r 192.168.1/24
 ```
-![1](https://user-images.githubusercontent.com/75953873/174418027-6d6e03ec-f2cb-4765-987a-b40d86f7bdb2.png)
+![1](https://user-images.githubusercontent.com/75953873/174458235-8b46f051-22c5-4c9e-a193-a21d2b15f82a.png)
 
-IP host: `192.168.25.254`
+IP host: `192.168.1.5`
