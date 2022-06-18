@@ -51,10 +51,9 @@ Mostrar contenido del archivo con Curl:
 ```
 curl http://192.168.1.5/robots.txt
 ```
+![6](https://user-images.githubusercontent.com/75953873/174458725-43cc2b76-f495-443a-ac4d-83aacd133f9a.png)
 
 Mensaje ofuscado a base64: `R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaXR9`
-
-![6](https://user-images.githubusercontent.com/75953873/174458725-43cc2b76-f495-443a-ac4d-83aacd133f9a.png)
 
 Decodificar mensaje con Bash:
 ```
