@@ -62,8 +62,15 @@ echo 'R29vZCBXb3JrICEKRmxhZzE6IGN5YmVyc3Bsb2l0e3lvdXR1YmUuY29tL2MvY3liZXJzcGxvaX
 ```
 ![7](https://user-images.githubusercontent.com/75953873/174458797-e0ceea57-dcf1-4b3b-954c-b2dfaf1fd074.png)
 
+- *Paso 5:* Conectarse al servidor SSH. 
+
 **_CREDENCIALES SSH_**
 
 Usuario: `itsskv`
 
 Contraseña: `cybersploit{youtube.com/c/cybersploit}`
+
+```
+ssh itsskv@192.168.1.5
+```
+![8](https://user-images.githubusercontent.com/75953873/174458910-2ecb3d1a-a76b-46b6-a51f-e14cc1e849b6.png)
