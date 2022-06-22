@@ -33,3 +33,4 @@ nmap -p 21,80 -A 192.168.1.10
 ![3](https://user-images.githubusercontent.com/75953873/174928628-0721689f-2a13-42e2-992f-1356fa68f168.png)
 
 Servidor corriendo: **HTTP Apache**
+O.S: **Linux**
