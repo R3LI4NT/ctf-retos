@@ -34,7 +34,7 @@ nmap -p 21,80,2211,8888 -A 192.168.1.10
 
 Servidor corriendo: **HTTP Apache**
 
-O.S: **Linux**
+O.S: Linux (**Ubuntu**)
 
 URL del servidor: `http://192.168.1.10`
 
@@ -43,3 +43,17 @@ URL del servidor: `http://192.168.1.10`
 En el puerto `8888` se encuentra corriendo el servidor Nginx (`http:192.168.1.10:8888`).
 
 ![5](https://user-images.githubusercontent.com/75953873/174929899-11ad2340-d883-4fff-8eb2-d68a7dd8b67d.png)
+
+- *Paso 4:* Enumerar archivos y directorios con Dirb. 
+```
+dirb http://192.168.1.10 /usr/share/dirb/wordlists/common.txt
+```
+![6](https://user-images.githubusercontent.com/75953873/174931398-0e9f0007-7245-408a-b4d1-d89c6f3e30ae.png)
+
+Directorio: `http://192.168.1.10/antibot_image/`
+
+Al inspeccionar el código del archivo `info.php` indica en un comentario que es posible subir una imagen con el método GET.
+```
+curl http://192.168.1.10/antibot_image/antibots/info.php
+```
+![7](https://user-images.githubusercontent.com/75953873/174932206-434978d3-3417-4eb4-bd3f-cbce7b934c87.png)
