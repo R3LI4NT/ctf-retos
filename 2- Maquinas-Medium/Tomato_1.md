@@ -79,4 +79,6 @@ Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../..
 
 ![8_](https://user-images.githubusercontent.com/75953873/174938823-970ad267-3267-4bbe-9f97-d256d4f5b2e2.png)
 
+**/var/log/auth.log**
 
+![10](https://user-images.githubusercontent.com/75953873/174939217-162ae75c-1412-48dd-98ab-142100bf6e95.png)
