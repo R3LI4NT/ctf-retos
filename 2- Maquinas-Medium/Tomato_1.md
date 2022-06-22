@@ -75,5 +75,5 @@ Opción 1) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../..
 Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log
 ```
 
-![9](https://user-images.githubusercontent.com/75953873/174934453-b1182f6c-2ce0-4028-8947-d357988b8c4d.png)
+![9](https://user-images.githubusercontent.com/75953873/174938168-ec6ee35f-6eaf-4d05-937a-ada4e7db7e84.png)
 
