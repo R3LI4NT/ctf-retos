@@ -14,6 +14,6 @@ Vulnhub: https://www.vulnhub.com/entry/tomato-1,557/
 ```
 netdiscover -i eth0
 ```
-![1](https://user-images.githubusercontent.com/75953873/174927444-e0da3272-7f45-4665-9ae9-83397a2c83c9.png)
+![1](https://user-images.githubusercontent.com/75953873/174927688-71985557-4e9d-4790-acac-a8b1da611f48.png)
 
 IP host: `192.168.1.10`
