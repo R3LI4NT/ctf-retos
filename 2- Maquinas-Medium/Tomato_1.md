@@ -52,7 +52,7 @@ dirb http://192.168.1.10 /usr/share/dirb/wordlists/common.txt
 
 Directorio: `http://192.168.1.10/antibot_image/`
 
-Al inspeccionar el código del archivo `info.php` indica en un comentario que es posible subir una imagen con el método GET.
+Al inspeccionar el código del archivo `info.php`, indica en un comentario que es posible subir una imagen con el método GET.
 ```
 curl http://192.168.1.10/antibot_image/antibots/info.php
 ```
