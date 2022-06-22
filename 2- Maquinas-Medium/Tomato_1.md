@@ -39,3 +39,7 @@ O.S: **Linux**
 URL del servidor: `http://192.168.1.10`
 
 ![4](https://user-images.githubusercontent.com/75953873/174928906-0bf0a1e9-d580-4d8f-ae94-0c0bbb3a73b6.png)
+
+En el puerto `8888` se encuentra corriendo el servidor Nginx (`http:192.168.1.10:8888`).
+
+![5](https://user-images.githubusercontent.com/75953873/174929899-11ad2340-d883-4fff-8eb2-d68a7dd8b67d.png)
