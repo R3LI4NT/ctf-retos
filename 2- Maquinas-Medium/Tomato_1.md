@@ -25,3 +25,11 @@ nmap -p- --open -sC -n -vvv 192.168.1.10
 ![2](https://user-images.githubusercontent.com/75953873/174928257-1f2073fd-0278-490d-a2c3-6a40c034756b.png)
 
 Puertos abiertos: [21,80]
+
+- *Paso 3:* Detección de servicios y sistema operativo. 
+```
+nmap -p 21,80 -A 192.168.1.10
+```
+![3](https://user-images.githubusercontent.com/75953873/174928628-0721689f-2a13-42e2-992f-1356fa68f168.png)
+
+Servidor corriendo: **HTTP Apache**
