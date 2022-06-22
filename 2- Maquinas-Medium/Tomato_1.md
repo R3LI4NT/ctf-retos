@@ -35,3 +35,7 @@ nmap -p 21,80 -A 192.168.1.10
 Servidor corriendo: **HTTP Apache**
 
 O.S: **Linux**
+
+URL del servidor: `http://192.168.1.10`
+
+![4](https://user-images.githubusercontent.com/75953873/174928906-0bf0a1e9-d580-4d8f-ae94-0c0bbb3a73b6.png)
