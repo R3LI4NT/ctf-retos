@@ -30,7 +30,7 @@ Puertos abiertos: [21,80,2211,8888]
 ```
 nmap -p 21,80,2211,8888 -A 192.168.1.10
 ```
-![3](https://user-images.githubusercontent.com/75953873/174928628-0721689f-2a13-42e2-992f-1356fa68f168.png)
+![3](https://user-images.githubusercontent.com/75953873/174929490-44875da3-9b11-4e39-ba9d-0d7be8d85aac.png)
 
 Servidor corriendo: **HTTP Apache**
 
