@@ -77,5 +77,6 @@ Opción 2) http://192.168.1.10/antibot_image/antibots/info.php?image=../../../..
 
 **/etc/passwd**
 
-![8](https://user-images.githubusercontent.com/75953873/174938610-b5e9c773-26e3-443a-aa47-2b06bf6a1ee5.png)
+![8_](https://user-images.githubusercontent.com/75953873/174938823-970ad267-3267-4bbe-9f97-d256d4f5b2e2.png)
+
 
