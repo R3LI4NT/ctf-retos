@@ -10,3 +10,10 @@ Vulnhub: https://www.vulnhub.com/entry/tomato-1,557/
 
 </br>
 
+- *Paso 1:* Identificar la IP de la máquina host con NetDiscover. 
+```
+netdiscover -i eth0
+```
+![1](https://user-images.githubusercontent.com/75953873/174927444-e0da3272-7f45-4665-9ae9-83397a2c83c9.png)
+
+IP host: `192.168.1.10`
