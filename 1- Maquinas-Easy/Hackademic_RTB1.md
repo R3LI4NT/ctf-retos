@@ -141,3 +141,5 @@ Por último, ejecutan el comando de `./kernel` y comenzará a explotar la vulner
 Y es así como finalmente obtendremos permisos de administrador (root) en la máquina víctima:
 
 ![19](https://user-images.githubusercontent.com/75953873/171935035-085279d1-fca1-47ab-9f2d-3e60e2830b04.png)
+
+**FLAG:** $_d&jgQ>>ak\#b"(Hx"o<la_%
