@@ -129,7 +129,7 @@ searchsploit -m 40616
 ```
 ![16](https://user-images.githubusercontent.com/75953873/175180708-73e2c433-0d55-4b51-bba3-0c091d47cd9e.png)
 
-Abrir un servidor local en el puerto 80 con Python3:
+Abrir un servidor local en el puerto `80` con Python3:
 ```
 python3 -m http.server 5555
 ```
