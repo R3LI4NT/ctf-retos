@@ -142,6 +142,6 @@ cat /passwd
 ```
 ![19](https://user-images.githubusercontent.com/75953873/173258754-b48703a8-ceef-46df-bd32-1979ec294639.png)
 
-**KEY:** 9e5ddd93d307150a16a03d56ff319c6d
+**FLAG:** 9e5ddd93d307150a16a03d56ff319c6d
 
 ![8](https://user-images.githubusercontent.com/75953873/172520842-29a1669f-f89d-44b4-a818-297d7b1b472f.png)
