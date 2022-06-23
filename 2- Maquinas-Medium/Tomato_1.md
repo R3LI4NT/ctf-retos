@@ -121,3 +121,10 @@ Seleccionar la URL completa desde el proxy de Burp y hacer clic en **Forward** p
 
 ![15](https://user-images.githubusercontent.com/75953873/175165583-a851e458-fda4-45c4-a019-d66d6b688cde.png)
 
+- *Paso 8:* Escalar privilegios: buscar exploit y descargarlo con SearchSploit.
+
+Versión del kernel: `4.4.0-21-generic`
+```
+searchsploit -m 40616
+```
+![16](https://user-images.githubusercontent.com/75953873/175180660-31b64ace-44da-4f47-8ee1-5360af2292a3.png)
