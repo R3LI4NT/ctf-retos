@@ -120,7 +120,6 @@ Directorio objetivo: `/lib/log`
 
 Con el editor de Nano hay que remplazar la línea de `rm -r /tmp/` por las siguientes:
 ```python
-```
 #!/usr/bin/env python
 import os
 import sys
