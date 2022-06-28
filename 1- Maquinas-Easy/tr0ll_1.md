@@ -6,6 +6,6 @@
 
 **[Descargar máquina]:**
 
-Vulnhub: https://www.vulnhub.com/entry/cybersploit-1,506/
+Vulnhub: https://www.vulnhub.com/entry/tr0ll-1,100/
 
 </br>
