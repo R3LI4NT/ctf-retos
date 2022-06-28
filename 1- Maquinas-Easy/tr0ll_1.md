@@ -130,3 +130,15 @@ except:
         sys.exit()
 
 ```
+![13](https://user-images.githubusercontent.com/75953873/176090801-543a7e6b-0386-466c-99f3-49bbf8daa1f0.png)
+
+Finalmente, ejecutamos `./sh` dentro del directorio `/tmp` y capturamos la flag del directorio `/root`.
+```
+cd /tmp
+./sh
+cd /root
+cat proof.txt
+```
+![14](https://user-images.githubusercontent.com/75953873/176091178-9dad75b7-dfc4-484f-88ef-10ae3201ff8f.png)
+
+**FLAG:** 702a8c18d29c6f3ca0d99ef5712bfbdc
