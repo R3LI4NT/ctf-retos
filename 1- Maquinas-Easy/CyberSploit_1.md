@@ -37,6 +37,8 @@ nmap -p 22,80 -A 192.168.1.5
 
 Servidor corriendo: **HTTP Apache**
 
+O.S: **Linux**
+
 ![4](https://user-images.githubusercontent.com/75953873/174458587-9dc99104-e733-4167-a77e-5637aa484cde.png)
 
 - *Paso 4:* Enumerar archivos web con Dirb.
