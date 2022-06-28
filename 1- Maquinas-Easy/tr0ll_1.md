@@ -86,3 +86,12 @@ Directorio secreto: `0x0856BF`
 URL completa: `http://192.168.1.4/0x0856BF`
 
 ![9](https://user-images.githubusercontent.com/75953873/176086028-06516837-d580-49de-8f15-c045b71909ff.png)
+
+El directorio `good_luck` contiene un fichero txt con una lista de nombres para realizar ataque de fuerza bruta y conectarse al servicio **SSH**. 
+
+URL completa: `http://192.168.1.4/0x0856BF/good_luck/which_one_lol.txt`
+```
+wget http://192.168.1.4/0x0856BF/good_luck/which_one_lol.txt
+cat which_one_lol.txt
+```
+![10](https://user-images.githubusercontent.com/75953873/176086596-77994340-98ef-4c9c-8231-5963d17a4c17.png)
