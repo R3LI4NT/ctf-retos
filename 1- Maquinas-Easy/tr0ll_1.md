@@ -17,3 +17,21 @@ netdiscover -i wlan0 -r 192.168.1/24
 ![1](https://user-images.githubusercontent.com/75953873/176079905-f35a37e9-416f-45a8-8f7e-3c49899c7252.png)
 
 IP host: `192.168.1.4`
+
+- *Paso 2:* Escanear todos los puertos que estén abiertos con Nmap. 
+```
+nmap -p- --open -sC -n -vvv 192.168.1.4
+```
+![2](https://user-images.githubusercontent.com/75953873/176080128-62ec0641-3cfa-479f-8d07-737fc130d1aa.png)
+
+Puertos abiertos: [21,22,80]
+
+- *Paso 3:* Detección de servicios y sistema operativo. 
+```
+nmap -p 21,22,80 -A 192.168.1.4
+```
+![3](https://user-images.githubusercontent.com/75953873/176080752-68fffca8-91aa-47b6-8a70-25833ff60e9d.png)
+
+Servicio FTP: permite el inicio se sesión anónimo.
+
+O.S: **Linux**
