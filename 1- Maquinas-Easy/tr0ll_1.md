@@ -42,3 +42,16 @@ URL: `http://192.168.1.4`
 
 ![4](https://user-images.githubusercontent.com/75953873/176081949-b1bb16cd-4a6f-4c5a-9abf-136aa5cc5c53.png)
 
+- *Paso 4:* Loguearse al servicio FTP. 
+```
+ftp 192.168.1.4
+```
+Usuario: `anonymous`
+
+Contraseña: `anonymous`
+
+Copiar el archivo `lol.pcap` hacia el directorio local:
+```
+get lol.pcap
+```
+![5](https://user-images.githubusercontent.com/75953873/176082571-6e2485ce-3890-4e4e-a022-40aeebc2310c.png)
