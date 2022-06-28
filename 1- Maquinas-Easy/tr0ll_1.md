@@ -30,7 +30,9 @@ Puertos abiertos: [21,22,80]
 ```
 nmap -p 21,22,80 -A 192.168.1.4
 ```
-![3](https://user-images.githubusercontent.com/75953873/176080752-68fffca8-91aa-47b6-8a70-25833ff60e9d.png)
+![3](https://user-images.githubusercontent.com/75953873/176081118-60dbaddd-22c5-48c2-9232-a18565c084e1.png)
+
+Servidor corriendo: **HTTP Apache**
 
 Servicio FTP: permite el inicio se sesión anónimo.
 
