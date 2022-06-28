@@ -37,3 +37,8 @@ Servidor corriendo: **HTTP Apache**
 Servicio FTP: permite el inicio se sesión anónimo.
 
 O.S: **Linux**
+
+URL: `http://192.168.1.4`
+
+![4](https://user-images.githubusercontent.com/75953873/176081949-b1bb16cd-4a6f-4c5a-9abf-136aa5cc5c53.png)
+
