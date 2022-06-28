@@ -132,7 +132,7 @@ except:
 ```
 ![13](https://user-images.githubusercontent.com/75953873/176090801-543a7e6b-0386-466c-99f3-49bbf8daa1f0.png)
 
-Finalmente, ejecutamos `./sh` dentro del directorio `/tmp` y capturamos la flag del directorio `/root`.
+Finalmente ejecutamos `./sh` dentro del directorio `/tmp` y capturamos la flag del directorio `/root`.
 ```
 cd /tmp
 ./sh
