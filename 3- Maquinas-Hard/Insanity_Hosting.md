@@ -41,3 +41,13 @@ Servicio FTP: permite el inicio de sesión anónimo.
 O.S: Linux (**CentOS**)
 
 URL: `http://192.168.1.10`
+
+- *Paso 4:* Loguearse al servicio FTP. 
+```
+ftp 192.168.1.10
+```
+Usuario: `anonymous`
+
+Contraseña: `anonymous`
+
+![4](https://user-images.githubusercontent.com/75953873/177059681-c67a449f-966c-4557-857a-fb6b689ee742.png)
