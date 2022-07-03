@@ -36,7 +36,7 @@ nmap -p 21,22,80 -A 192.168.1.10
 
 Servidor corriendo: **HTTP Apache**
 
-Servicio FTP: permite el inicio se sesión anónimo.
+Servicio FTP: permite el inicio de sesión anónimo.
 
 O.S: Linux (**CentOS**)
 
