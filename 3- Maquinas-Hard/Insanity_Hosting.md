@@ -51,3 +51,13 @@ Usuario: `anonymous`
 Contraseña: `anonymous`
 
 ![4](https://user-images.githubusercontent.com/75953873/177059681-c67a449f-966c-4557-857a-fb6b689ee742.png)
+
+- *Paso 5:* Enumerar archivos y directorios con Dirb. 
+```
+dirb http://192.168.1.10/monitoring -X .php -w /usr/share/wordlists/dirb/common.txt 
+```
+![5](https://user-images.githubusercontent.com/75953873/177060618-20a3b175-70f1-4446-9a98-06fd3472b895.png)
+
+URL completa: `http://192.168.1.10/monitoring/login.php
+
+![6](https://user-images.githubusercontent.com/75953873/177060649-2c0299a6-1293-4ff3-bd57-3d7f2c377c33.png)
