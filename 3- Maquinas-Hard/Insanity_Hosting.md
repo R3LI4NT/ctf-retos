@@ -90,3 +90,7 @@ hydra -l otis -P /usr/share/wordlists/rockyou.txt 192.168.1.10 http-post-form "/
 Usuario: `otis`
 
 Contraseña: `123456`
+
+URL completa: `http://192.168.1.10/webmail/src/login.php`
+
+![13](https://user-images.githubusercontent.com/75953873/177061734-1c948dd7-be19-479f-a08e-f62d45051ade.png)
