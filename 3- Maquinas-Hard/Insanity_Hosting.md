@@ -6,6 +6,14 @@
 
 **[Descargar máquina]:**
 
-Vulnhub: https://www.vulnhub.com/entry/prime-1,358/
+Vulnhub: https://www.vulnhub.com/entry/insanity-1,536/
 
 </br>
+
+- *Paso 1:* Identificar la IP de la máquina host con Arp-Scan. 
+```
+arp-scan --interface wlan0 -l
+```
+![1](https://user-images.githubusercontent.com/75953873/177059310-4e781fd1-10e5-4204-a0e4-1cb0101ea678.png)
+
+IP host: `192.168.1.10`
