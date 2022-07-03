@@ -8,6 +8,8 @@
 
 Vulnhub: https://www.vulnhub.com/entry/insanity-1,536/
 
+<h1 align="center"></h1>
+
 </br>
 
 - *Paso 1:* Identificar la IP de la máquina host con Arp-Scan. 
