@@ -32,6 +32,7 @@ Puertos abiertos: [21,22,80]
 ```
 nmap -p 21,22,80 -A 192.168.1.10
 ```
+![3](https://user-images.githubusercontent.com/75953873/177059471-f34e40d9-8d65-4731-9ea1-15efd130ca17.png)
 
 Servidor corriendo: **HTTP Apache**
 
