@@ -11,3 +11,11 @@ Vulnhub: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/
 <h1 align="center"></h1>
 
 </br>
+
+- *Paso 1:* Identificar la IP de la máquina host con Arp-Scan. 
+```
+arp-scan --interface wlan0 -l
+```
+![1](https://user-images.githubusercontent.com/75953873/177676522-7542cd60-297b-4537-a657-a6e613e22122.png)
+
+IP host: `192.168.1.104`
