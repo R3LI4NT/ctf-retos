@@ -52,7 +52,7 @@ nikto -h http:///192.168.1.104
 
 Vulnerabilidad **CVE-2002-0082**: permite que un atacante explote el desbordamiento de búfer que se encuentra en las versiones de Samba 2.2.0 a 2.2.8.
 
-- https://www.cvedetails.com/cve/CVE-2002-0082/
+https://www.cvedetails.com/cve/CVE-2002-0082/
 
 - *Paso 5:* Localizar exploti, descargarlo, compilarlo y ejecutarlo. 
 ```
