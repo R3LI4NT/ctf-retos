@@ -32,3 +32,10 @@ Puertos abiertos: [22,80,111,139,443]
 ```
 nmap -p 22,80,111,139,443 -A 192.168.1.104
 ```
+![3](https://user-images.githubusercontent.com/75953873/177677619-5b6fa806-14d5-4474-b6a8-800e1a8b8618.png)
+
+![4](https://user-images.githubusercontent.com/75953873/177677647-f1513f29-98ca-40bd-901e-ac9466faa0aa.png)
+
+Servidor corriendo: **HTTP Apache** (puerto 80 y 443)
+
+O.S: **Linux**
