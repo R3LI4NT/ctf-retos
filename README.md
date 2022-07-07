@@ -19,6 +19,8 @@
 
 - 5).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/tr0ll_1.md" target="_blank">Tr0ll_1</a>
 
+- 6).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Kioptix_1.md" target="_blank">Tr0ll_1</a>
+
 
 <h1 align="center"></h1>
 
