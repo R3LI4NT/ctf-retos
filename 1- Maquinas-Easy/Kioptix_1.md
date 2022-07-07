@@ -30,5 +30,5 @@ Puertos abiertos: [22,80,111,139,443]
 
 - *Paso 3:* Detección de servicios y sistema operativo. 
 ```
-nmap -p 21,22,80 -A 192.168.1.104
+nmap -p 22,80,111,139,443 -A 192.168.1.104
 ```
