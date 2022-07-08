@@ -21,6 +21,8 @@
 
 - 6).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Kioptix_1.md" target="_blank">Kioptrix_1</a>
 
+- 7).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Kioptrix_1.2.md" target="_blank">Kioptrix_1.2</a>
+
 
 <h1 align="center"></h1>
 
