@@ -120,3 +120,9 @@ sudo ht /etc/sudoers
 **F3** para editar los sudoers.
 
 ![19](https://user-images.githubusercontent.com/75953873/177901172-c5ddbe31-a194-4f08-b476-bafbc8379bee.png)
+
+Editar el fragmento de usuarios privilegiados y conceder al usuario `loneferret` acceso root:
+```
+loneferret ALL=(ALL) NOPASSWD: ALL
+```
+![20](https://user-images.githubusercontent.com/75953873/177901676-bb6eef17-62c7-493d-95b8-ac335ade048b.png)
