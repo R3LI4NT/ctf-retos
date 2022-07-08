@@ -39,3 +39,5 @@ Servidor corriendo: **HTTP Apache**
 O.S: **Linux**
 
 URL: `http://192.168.1.4`
+
+![4](https://user-images.githubusercontent.com/75953873/177893516-4d047531-8ae4-4e65-abb1-3660db5c97e7.png)
