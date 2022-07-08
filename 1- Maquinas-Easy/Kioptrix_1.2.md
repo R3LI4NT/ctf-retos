@@ -38,6 +38,13 @@ Servidor corriendo: **HTTP Apache**
 
 O.S: **Linux**
 
-URL: `http://192.168.1.4`
+Modificar registro de DNS:
+```
+sudo nano /etc/hosts
+192.168.1.4     kioptrix3.com
+```
+![5](https://user-images.githubusercontent.com/75953873/177894609-f8736c6f-88f5-4589-8537-b830f3aea646.png)
 
-![4](https://user-images.githubusercontent.com/75953873/177893516-4d047531-8ae4-4e65-abb1-3660db5c97e7.png)
+URL: `kioptrix3.com`
+
+![4](https://user-images.githubusercontent.com/75953873/177894662-86f2e2d9-11d0-4e68-9d8b-eea8d94020b3.png)
