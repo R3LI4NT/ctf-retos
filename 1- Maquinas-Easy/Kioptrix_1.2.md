@@ -96,6 +96,7 @@ Herramienta: https://github.com/R3LI4NT/hashCrack
 ```
 python3 hashcrack.py --md5 5badcaf789d3d1d09794d8f021f40f0e -w /usr/share/wordlists/rockyou.txt
 ```
+![14](https://user-images.githubusercontent.com/75953873/177899361-55ca89ae-2c96-4ac8-a1df-2a2680b3f125.png)
 
 Usuario: `loneferret`
 
