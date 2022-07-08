@@ -48,3 +48,7 @@ sudo nano /etc/hosts
 URL: `kioptrix3.com`
 
 ![4](https://user-images.githubusercontent.com/75953873/177894662-86f2e2d9-11d0-4e68-9d8b-eea8d94020b3.png)
+
+URL: `http://kioptrix3.com/index.php?system=Admin`
+
+![6](https://user-images.githubusercontent.com/75953873/177895258-d7a8aaa0-ae76-48ff-a111-022a83d1ae0f.png)
