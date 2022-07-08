@@ -48,7 +48,14 @@ sudo nano /etc/hosts
 URL: `kioptrix3.com`
 
 ![4](https://user-images.githubusercontent.com/75953873/177894662-86f2e2d9-11d0-4e68-9d8b-eea8d94020b3.png)
+ 
+- *Paso 4:* Enumerar directorios con Dirb. 
+```
+dirb http://kioptrix3.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+![8](https://user-images.githubusercontent.com/75953873/177896088-d5bd5588-f32e-4391-ba4c-b3eb77cd2cfa.png)
 
-URL: `http://kioptrix3.com/index.php?system=Admin`
-
-![6](https://user-images.githubusercontent.com/75953873/177895258-d7a8aaa0-ae76-48ff-a111-022a83d1ae0f.png)
+```
+dirb http://kioptrix3.com/gallery -X .php
+```
+![9](https://user-images.githubusercontent.com/75953873/177896489-33c3d635-4b79-4885-959f-ee23c9f644ee.png)
