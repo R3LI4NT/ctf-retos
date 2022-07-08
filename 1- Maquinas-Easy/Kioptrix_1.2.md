@@ -101,3 +101,9 @@ python3 hashcrack.py --md5 5badcaf789d3d1d09794d8f021f40f0e -w /usr/share/wordli
 Usuario: `loneferret`
 
 Contraseña: `starwars`
+
+- *Paso 6:* Conectarse remotamente al servidor SSH.
+```
+ssh -oHostKeyAlgorithms=+ssh-dss loneferret@192.168.1.4
+```
+![16](https://user-images.githubusercontent.com/75953873/177899948-125d5fed-1507-473f-a550-3ad1d74ea53d.png)
