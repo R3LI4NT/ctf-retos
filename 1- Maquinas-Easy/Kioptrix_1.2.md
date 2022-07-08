@@ -107,3 +107,16 @@ Contraseña: `starwars`
 ssh -oHostKeyAlgorithms=+ssh-dss loneferret@192.168.1.4
 ```
 ![16](https://user-images.githubusercontent.com/75953873/177899948-125d5fed-1507-473f-a550-3ad1d74ea53d.png)
+
+![17](https://user-images.githubusercontent.com/75953873/177900337-dc2fd45d-5877-4a61-8634-a6add18fa366.png)
+
+Sudo **ht** permite editar cualquier archivo del sistema. Por lo tanto, hay que exportar TERM para editar los `sudoers`.
+```
+export TERM=xterm-color
+sudo ht /etc/sudoers
+```
+![18](https://user-images.githubusercontent.com/75953873/177900743-71e4b54d-ce74-45c4-9434-f6670d824a61.png)
+
+**F3** para editar los sudoers.
+
+![19](https://user-images.githubusercontent.com/75953873/177901172-c5ddbe31-a194-4f08-b476-bafbc8379bee.png)
