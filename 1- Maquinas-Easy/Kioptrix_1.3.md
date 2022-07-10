@@ -48,4 +48,7 @@ La enumeración de directorios y archivos con Dirb encuentra un directorio llama
 ```
 dirb http://192.168.25.138
 ```
-![5](https://user-images.githubusercontent.com/75953873/178129037-83f7e1f2-2923-45fe-b024-555458625eba.png)
+![5](https://user-images.githubusercontent.com/75953873/178129062-4b519854-bfa5-469c-82a6-346010347a17.png)
+
+![6](https://user-images.githubusercontent.com/75953873/178129075-842d66d2-e997-45c6-8cce-84d712f3c0db.png)
+
