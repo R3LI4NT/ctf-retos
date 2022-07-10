@@ -77,7 +77,7 @@ cat checklogin.php
 ```
 ![9](https://user-images.githubusercontent.com/75953873/178129470-0903b88c-271e-4874-90a4-5fbcef300f1a.png)
 
-- *Paso 5:* Iniciar sesión en el servidor MySQL.
+- *Paso 6:* Iniciar sesión en el servidor MySQL.
 
 Usuario: `root`
 
