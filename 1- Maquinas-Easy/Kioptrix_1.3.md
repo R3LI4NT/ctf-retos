@@ -43,3 +43,9 @@ O.S: **Linux**
 URL: `http://192.168.25.138`
 
 ![4](https://user-images.githubusercontent.com/75953873/178128981-b955ab0e-8efa-4d7b-a4a2-9ab170f6c50c.png)
+
+La enumeración de directorios y archivos con Dirb encuentra un directorio llamado `john`, pero esté no revela nada relevante.
+```
+dirb http://192.168.25.138
+```
+![5](https://user-images.githubusercontent.com/75953873/178129037-83f7e1f2-2923-45fe-b024-555458625eba.png)
