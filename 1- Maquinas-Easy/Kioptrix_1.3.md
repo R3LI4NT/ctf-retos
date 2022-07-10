@@ -16,3 +16,6 @@ Vulnhub: https://www.vulnhub.com/entry/kioptrix-level-13-4,25/
 ```
 arp-scan --interface eth0 -l
 ```
+![1](https://user-images.githubusercontent.com/75953873/178128766-c1eb1f99-56e6-4449-a3f2-bf9345a59492.png)
+
+IP host: `192.168.25.138`
