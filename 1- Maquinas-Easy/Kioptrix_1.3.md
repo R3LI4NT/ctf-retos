@@ -27,3 +27,19 @@ nmap -p- --open -sC -n -vvv 192.168.25.138
 ![2](https://user-images.githubusercontent.com/75953873/178128792-82993633-dc3c-4167-ab2c-4e0c05570d37.png)
 
 Puertos abiertos: [22,80,139,445]
+
+- *Paso 3:* Detección de servicios y sistema operativo. 
+```
+nmap -p 22,80,139,445 -A 192.168.25.138
+```
+![3](https://user-images.githubusercontent.com/75953873/178128892-5d15426d-7724-4b96-ac14-8fa749662bc6.png)
+
+![3 2](https://user-images.githubusercontent.com/75953873/178128937-364e11ba-8b5a-475b-a4c3-f5713ebe4d66.png)
+
+Servidor corriendo: **HTTP Apache**
+
+O.S: **Linux**
+
+URL: `http://192.168.25.138`
+
+![4](https://user-images.githubusercontent.com/75953873/178128981-b955ab0e-8efa-4d7b-a4a2-9ab170f6c50c.png)
