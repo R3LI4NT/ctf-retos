@@ -69,3 +69,9 @@ Contraseña: `MyNameIsJohn`
 
 ![8](https://user-images.githubusercontent.com/75953873/178129218-e0862b3b-4d30-44b2-8352-cc0e39f5d10c.png)
 
+La shell se ejecuta dentro de un intérprete de python por lo que saldremos de ella e ingresaremos al directorio raíz del servidor `/var/www`:
+```
+echo os.system('/bin/bash')
+cd /www/var
+```
+![9](https://user-images.githubusercontent.com/75953873/178129438-867ea487-da95-432e-8454-c5c42590c05a.png)
