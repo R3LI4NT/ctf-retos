@@ -52,3 +52,5 @@ dirb http://192.168.25.138
 
 ![6](https://user-images.githubusercontent.com/75953873/178129075-842d66d2-e997-45c6-8cce-84d712f3c0db.png)
 
+- *Paso 4:* Inyección SQL manual.
+En el panel de login se debe ingresar el usuario `john` y la contraseña `' or 1=1-- -`.
