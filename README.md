@@ -7,7 +7,7 @@
 
 *NIVEL:* **Easy**
 
-<sub>O.S: **Linux**</sub>
+<sub>O.S: **GNU / Linux**</sub>
 
 - 1).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/1-%20Maquinas-Easy/Metasploitable_2.md" target="_blank">Metasploitable_2</a>
 
@@ -29,7 +29,7 @@
 
 *NIVEL:* **Medium**
 
-<sub>O.S: **Linux**</sub>
+<sub>O.S: **GNU / Linux**</sub>
 
 - 1).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/2-%20Maquinas-Medium/Mr.Robot_1.md" target="_blank">Mr.Robot_1</a>
 
@@ -39,7 +39,7 @@
 
 *NIVEL:* **Hard**
 
-<sub>O.S: **Linux**</sub>
+<sub>O.S: **GNU / Linux**</sub>
 
 - 1).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/3-%20Maquinas-Hard/Prime_1.md" target="_blank">Prime_1</a>
 
