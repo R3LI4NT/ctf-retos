@@ -10,8 +10,6 @@ Vulnhub: https://www.vulnhub.com/entry/android4-1,233/
 
 <h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/179633430-0029a8f7-b789-49a2-80be-12f04ed9357f.png"></h1>
 
-<h1 align="center"></h1>
-
 </br>
 
 - *Paso 1:* Identificar la IP de la máquina host con ArpScan. 
