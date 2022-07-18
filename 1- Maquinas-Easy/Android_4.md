@@ -16,3 +16,6 @@ Vulnhub: https://www.vulnhub.com/entry/android4-1,233/
 ```
 arp-scan --interface eth0 -l
 ```
+![2](https://user-images.githubusercontent.com/75953873/179633673-54c343f6-fe1c-49bd-a070-a2ccdb4cf488.png)
+
+IP host: `192.168.25.139`
