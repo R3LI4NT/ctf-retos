@@ -40,16 +40,16 @@ Servidor web (puerto **8080**): `http://192.168.25.139:8080`
 
 O.S: `Android` **--> Kernel Linux**
 
-Puerto **5555**: Es un puerto utilizado por ADB (Puente de Depuración de Android) que se utiliza para conectarse a telefonos móviles a través de TCP y ejecutar comandos.
+Puerto **5555**: Es un puerto utilizado por ADB (Puente de Depuración de Android) que se utiliza para conectarse a teléfonos móviles a través de TCP y ejecutar comandos.
 
-- *Paso 4:* Conectarse al telefono vía ADB y capturar la flag.
+- *Paso 4:* Conectarse al dispositivo vía ADB y capturar la flag.
 
 Descargar ADB:
 ```
 apt-get install -y adb
 ```
 
-Conectarse con el dispositivo y obtener una shell:
+Crear conexión con el dispositivo y obtener una shell:
 ```
 adb connect 192.168.25.139:5555
 adb shell
