@@ -65,3 +65,14 @@ cat flag.txt
 ![7](https://user-images.githubusercontent.com/75953873/179636561-0b059ea4-2dd0-4c97-bc47-0ea74cfd023b.png)
 
 **FLAG:** ANDROID{u_GOT_root_buddy}
+
+
+Eliminar los archivos claves del directorio del sistema para desactivar la protección (PIN):
+```
+su
+cd /data/system
+rm *.key
+```
+![8](https://user-images.githubusercontent.com/75953873/179638008-1d1c29c4-ef57-46e4-acae-ab7e68e1b560.png)
+
+![9](https://user-images.githubusercontent.com/75953873/179639178-5a6c14a9-a48e-4e01-ad24-6416878c6429.png)
