@@ -56,7 +56,7 @@ adb shell
 ```
 ![6](https://user-images.githubusercontent.com/75953873/179636318-eb4f31c6-3c25-4881-aec8-802eb3052785.png)
 
-Acceder a superusuario (**root**) y capturar la flag en del directorio `/data/root`:
+Acceder a superusuario (**root**) y capturar la flag del directorio `/data/root`:
 ```
 su
 cd /data/root
