@@ -55,3 +55,13 @@ adb connect 192.168.25.139:5555
 adb shell
 ```
 ![6](https://user-images.githubusercontent.com/75953873/179636318-eb4f31c6-3c25-4881-aec8-802eb3052785.png)
+
+Acceder a superusuario (**root**) y capturar la flag en del directorio `/data/root`:
+```
+su
+cd /data/root
+cat flag.txt
+```
+![7](https://user-images.githubusercontent.com/75953873/179636561-0b059ea4-2dd0-4c97-bc47-0ea74cfd023b.png)
+
+**FLAG:** ANDROID{u_GOT_root_buddy}
