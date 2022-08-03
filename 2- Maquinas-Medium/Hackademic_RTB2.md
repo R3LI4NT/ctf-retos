@@ -89,7 +89,7 @@ nmap -r -p 1001,1101,1011,1001 192.168.25.131
 ```
 ![13](https://user-images.githubusercontent.com/75953873/182728017-cd632ee0-4ae2-4f7e-8e8e-f78ee7450ebd.png)
 
-URL con el puerto 666 abuerto: `http://192.168.25.131:666`
+URL con el puerto 666 abierto: `http://192.168.25.131:666`
 
 ![14](https://user-images.githubusercontent.com/75953873/182728213-b629fc94-5457-4086-b57d-f5b01b3aeb2a.png)
 
@@ -123,7 +123,7 @@ mv php-reverse-shell.php reverseshell.php
 ![17](https://user-images.githubusercontent.com/75953873/182729943-7059e627-8c01-43bc-b0f6-572664c2773c.png)
 
 Abrir servidor local con Python3:
-```
+```python
 python3 -m http.server 80
 ```
 ![20](https://user-images.githubusercontent.com/75953873/182731305-a8adc335-e819-4e5c-9f1e-c388f900f595.png)
@@ -143,3 +143,7 @@ Acceder al sitio donde se subio la reverse shell:
 URL: `http://192.168.25.131:666/reverseshell.php`
 
 ![21](https://user-images.githubusercontent.com/75953873/182731893-d0f3e803-277c-422d-b78c-fd9f8c22c66d.png)
+
+- *Paso 9:* Buscar y explotar versión del kernel:
+
+![22](https://user-images.githubusercontent.com/75953873/182732251-c05c0ba1-7e2e-4da5-a75c-8676435d3a96.png)
