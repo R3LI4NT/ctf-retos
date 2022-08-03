@@ -76,7 +76,9 @@ Decoder:
 ```
 ![11](https://user-images.githubusercontent.com/75953873/182727019-7c7f2896-8299-42f1-ba58-d6e69c1d6545.png)
 
-Decodificar cadena binaria:
+Decodificar cadena binaria: https://www.traductorbinario.com/
 ```
 0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 1   0 0 1 1 1 0 1 0   0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 1   0 0 1 1 1 0 1 0   0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 1   0 0 1 1 1 0 1 0   0 0 1 1 0 0 0 1   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 0   0 0 1 1 0 0 0 1 
 ```
+
+![12](https://user-images.githubusercontent.com/75953873/182727491-9cdcf046-d840-4923-a7fd-1c5d0258a98c.png)
