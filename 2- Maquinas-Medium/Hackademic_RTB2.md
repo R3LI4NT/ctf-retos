@@ -117,4 +117,7 @@ nano php-reverse-shell.php
 
 **$port:** 4444 (opcional).
 
+![18](https://user-images.githubusercontent.com/75953873/182730094-c8c2f93f-b0a6-444f-9f84-b26f4efe6030.png)
+
+
 ![17](https://user-images.githubusercontent.com/75953873/182729943-7059e627-8c01-43bc-b0f6-572664c2773c.png)
