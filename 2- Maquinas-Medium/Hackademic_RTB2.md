@@ -51,3 +51,9 @@ Password: `' or 1=1--'`
 ![6](https://user-images.githubusercontent.com/75953873/182725260-0ebeb8c5-c0af-465d-b520-69816fb8b37a.png)
 
 ![7](https://user-images.githubusercontent.com/75953873/182725313-445bffd4-699b-404c-9304-80a514377bfa.png)
+
+Al inspeccionar el código fuente, la etiqueta `<font>` contiene un texto ofuscado a hexadecimal.
+
+![9](https://user-images.githubusercontent.com/75953873/182725970-78c8a7d8-80ea-4298-906f-7b8e9a898268.png)
+
+- *Paso 5:* Decodificar mensaje Online y con BurpSuite. 
