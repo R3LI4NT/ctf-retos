@@ -6,17 +6,15 @@
 
 **[Descargar máquina]:**
 
-Vulnhub: https://www.vulnhub.com/entry/hackademic-rtb1,17/
+Vulnhub: https://www.vulnhub.com/entry/hackademic-rtb2,18/
 
-**[Online]:**
-
-Root-Me: https://www.root-me.org/fr/Capture-The-Flag/CTF-all-the-day/Hackademic-RTB1-22?lang=es
+<h1 align="center"><img src="https://user-images.githubusercontent.com/75953873/182723256-9616db47-6dcd-4884-a26f-0bd69b382d29.png"></h1>
 
 <h1 align="center"></h1>
 
 </br>
 
-- *Paso 1:* Identificación de la máquina en la red con NetDiscover. 
+- *Paso 1:* Identificación de la máquina en la red con ArpScan. 
 ```
-netdiscover --interface wlan0 --range 192.168.1.0/24
+arp-scan --interface eth0 -l
 ```
