@@ -82,3 +82,13 @@ Decodificar cadena binaria: https://www.traductorbinario.com/
 ```
 
 ![12](https://user-images.githubusercontent.com/75953873/182727491-9cdcf046-d840-4923-a7fd-1c5d0258a98c.png)
+
+- *Paso 6:* Acceder al puerto 666 golpeado recursivamente los puertos `1001,1101,1011,1001` con Nmap. }
+```
+nmap -r -p 1001,1101,1011,1001 192.168.25.131
+```
+![13](https://user-images.githubusercontent.com/75953873/182728017-cd632ee0-4ae2-4f7e-8e8e-f78ee7450ebd.png)
+
+URL con el puerto 666 abuerto: `http://192.168.25.131:666`
+
+![14](https://user-images.githubusercontent.com/75953873/182728213-b629fc94-5457-4086-b57d-f5b01b3aeb2a.png)
