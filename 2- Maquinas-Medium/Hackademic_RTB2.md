@@ -28,4 +28,17 @@ nmap -p- --open -sC -n -vvv 192.168.25.131
 
 Puertos abiertos: [80,666]
 
+- *Paso 3:* Detección de servicios y sistema operativo. 
+```
+nmap -p 80,666 -A 192.168.25.131
+```
+![4](https://user-images.githubusercontent.com/75953873/182724516-60843d6c-3ed8-4307-8345-7431696978a3.png)
+
+Servidor corriendo: **HTTP Apache**
+
+O.S: Linux (**Ubuntu**)
+
+URL del servidor: `http://192.168.25.131`
+
+
 
