@@ -178,6 +178,8 @@ Acceder al directorio `/root` y capturar la flag:
 cd /root
 cat Key.txt
 ```
+![25](https://user-images.githubusercontent.com/75953873/182736331-28feb398-5d2a-4cee-8d54-354df9ba9c9e.png)
+
 Descifrar contenido del fichero con base64 y moverlo al servidor local `/var/www`:
 ```
 base64 -d Key.txt > flag
