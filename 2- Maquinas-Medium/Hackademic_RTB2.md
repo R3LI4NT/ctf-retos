@@ -97,7 +97,7 @@ URL con el puerto 666 abierto: `http://192.168.25.131:666`
 
 Navegando en el sitio web se puede observar que la "Lista de artículos de contenido" presenta una URL crítica.
 
-URL: 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3'
+URL: `http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3`
 
 Explotar base de datos con SQLmap:
 ```
@@ -195,4 +195,4 @@ URL: `http://192.168.25.131:666/flag`
 
 </br>
 
-Felicitaciones al autor <a href="https://www.vulnhub.com/author/mrpr0n,3/">mr.pr0n</a> por la excelente versión 2.0 de **Hackademic**!
+Mis felicitaciones al autor <a href="https://www.vulnhub.com/author/mrpr0n,3/">mr.pr0n</a> por la excelente versión 2.0 de **Hackademic**!
