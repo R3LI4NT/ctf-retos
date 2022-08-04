@@ -188,3 +188,6 @@ mv flag /var/www
 URL: `http://192.168.25.131:666/flag`
 
 ![28](https://user-images.githubusercontent.com/75953873/182736188-909c542c-55ad-46ea-962a-517ede01b93d.png)
+
+
+**Felicitaciones** al autor <a href="https://www.vulnhub.com/author/mrpr0n,3/">mr.pr0n</a> por la excelente versión de Hackademic!
