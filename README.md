@@ -41,6 +41,8 @@
 
 - 3).<a href="https://github.com/R3LI4NT/ctf-retos/blob/main/2-%20Maquinas-Medium/Hackademic_RTB2.md" target="_blank">Hackademic_RTB2</a>
 
+- 4).<a href="" target="_blank">SummerVibes</a>
+
 <h1 align="center"></h1>
 
 *NIVEL:* **Hard**
